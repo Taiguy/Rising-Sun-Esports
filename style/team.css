@@ -23,6 +23,12 @@
 #member-tabs .nav-link{
     padding: 30px;
 }
+#member-tabs a{
+    color:white;
+}
+#member-tabs .active{
+    color:black
+}
 .tab-content{
     color:white;
 }
