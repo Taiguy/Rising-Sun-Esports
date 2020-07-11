@@ -42,7 +42,7 @@
 
 
 .table{
-    width:80%;
+    width:90%;
     min-width:600px;
     text-align: center;
     font-size:30px;
@@ -56,16 +56,38 @@
     padding:15px;
 }
 .table .fa{
-    color:white;
+    color:#00ACEE;
     margin-right:50px;
 }
 .table .fa:hover{
-    color:gray;
+    color:lightblue;
     text-decoration: none;
 }
-.API-logo{
+
+.flag{
+    width:35px;
+}
+.stats-icon{
     width:30px;
+}
+.stats-icon:hover{
+    filter:brightness(150%);
+}
+.space{
+    height:200px;
 }
 hr{
     border:dashed white 1px
+}
+
+@media only screen and (max-width: 768px){
+    .table{
+        min-width: 100%;
+    }
+    .text-space{
+        padding:5px;
+    }
+    h1{
+        font-size:25px;
+    }
 }
