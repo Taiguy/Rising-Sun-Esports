@@ -1,0 +1,35 @@
+body{
+    background: #333333;
+    text-align: center;
+}
+nav li{
+    font-size: 21px;
+    margin:15px 10px;
+}
+#nav-logo{
+    height:66px;
+}
+#nav-space{
+    height:66px;
+}
+.dropdown-item{
+    text-align: center;
+}
+.space{
+    height:1000px;
+}
+footer{
+    background-color: #3f3f3f;
+    border-top:solid #dddddd 1px;
+    padding:50px;
+}
+footer .fa{
+    margin-right: 50px;
+    margin-left:50px;
+    font-size: 40px;
+    color:white;
+}
+footer .fa:hover{
+    color:gray;
+    text-decoration: none;
+}

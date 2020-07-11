@@ -1,0 +1,65 @@
+#banner{
+    position: relative;
+}
+#banner h1{
+    position: absolute;
+    top:40%;
+    left:0;
+    right:0;
+    margin:auto;
+    font-size: 60px;
+    color:white;
+}
+#banner img{
+    object-fit: cover;
+    object-position: 100% 50%;
+    width:100%;
+    max-height:300px;
+    filter: brightness(70%);
+}
+#member-tabs .active{
+    background-color: #eeeeee;
+}
+#member-tabs .nav-link{
+    padding: 30px;
+}
+.tab-content{
+    color:white;
+}
+
+
+.title{
+    font-size: 40px;
+    text-align: left;
+    margin-top:20px;
+}
+
+
+.table{
+    width:80%;
+    min-width:600px;
+    text-align: center;
+    font-size:30px;
+    background:none;
+    color:white;
+}
+.table th{
+    text-align: left;
+}
+.text-space{
+    padding:15px;
+}
+.table .fa{
+    color:white;
+    margin-right:50px;
+}
+.table .fa:hover{
+    color:gray;
+    text-decoration: none;
+}
+.API-logo{
+    width:30px;
+}
+hr{
+    border:dashed white 1px
+}

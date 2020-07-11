@@ -1,0 +1,17 @@
+#banner{
+    position: relative;
+}
+#banner-image{
+    object-fit: cover;
+    object-position: 100% 50%;
+    width:100%;
+    max-height:500px;
+}
+#banner-logo{
+    position: absolute;
+    top:20%;
+    left:0;
+    right:0;
+    margin:auto;
+    height:70%;
+}
