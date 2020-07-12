@@ -4,6 +4,7 @@
 }
 h1,h2,h3,h4,h5,h6,a{
     font-family: Gotham;
+    font-weight: bold;
     text-transform: uppercase;
 }
 body{
@@ -28,8 +29,8 @@ nav li{
     font-weight:bold;
 }
 footer{
-    background-color: #3f3f3f;
-    border-top:solid #dddddd 1px;
+    background-color: darkred;
+    border-top:none;
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -39,6 +40,9 @@ footer .fa{
 }
 footer img{
     width:40px;
+}
+footer img:hover{
+    filter: brightness(50%);
 }
 footer .fa:hover{
     color:gray;
