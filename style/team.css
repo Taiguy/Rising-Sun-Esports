@@ -77,12 +77,7 @@ tr:hover{
 .flag{
     width:35px;
 }
-.stats-icon{
-    width:30px;
-}
-.stats-icon:hover{
-    filter:brightness(150%);
-}
+
 .space{
     height:200px;
 }
@@ -91,6 +86,13 @@ hr{
 }
 
 
+.member-list .row{
+    margin-top:25px;
+    padding-top:6px;
+}
+.member-list .row:hover{
+    background-color:rgba(255,255,255,0.1);
+}
 .list-num{
     text-align: right;
 }
@@ -102,10 +104,26 @@ hr{
     text-align:left;
 }
 .list-icon{
-    text-align:left;
+    text-align:center;
+}
+.list-icon .fa-twitter{
+    color:#00ACEE;
+}
+.list-icon .fa-youtube{
+    color:white;
+}
+.list-icon .fa:hover{
+    color:lightgray;
+    text-decoration: none;
 }
 .list-img{
-    text-align:left;
+    text-align:center;
+}
+.stats-icon{
+    width:30px;
+}
+.stats-icon:hover{
+    filter:brightness(150%);
 }
 
 @media only screen and (max-width: 414px){
