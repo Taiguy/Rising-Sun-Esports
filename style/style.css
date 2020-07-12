@@ -25,21 +25,28 @@ nav li{
 }
 .dropdown-item{
     text-align: center;
+    font-weight:bold;
 }
 footer{
     background-color: #3f3f3f;
     border-top:solid #dddddd 1px;
-    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 footer .fa{
-    margin-right: 50px;
-    margin-left:50px;
     font-size: 40px;
     color:white;
+}
+footer img{
+    width:40px;
 }
 footer .fa:hover{
     color:gray;
     text-decoration: none;
+}
+footer .row{
+    display:flex;
+    justify-content: center;
 }
 
 
