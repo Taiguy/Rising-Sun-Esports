@@ -184,28 +184,28 @@ var bsMem = [
         flag:"jp",
         name:"Lil.Dembsey",
         twitter:"https://twitter.com/denden_BS",
-        link:"https://brawlstats.com/profile/P29Y9UGU"
+        
     },
     {
         flag:"jp",
         name:"あかつき",
         twitter:"https://twitter.com/Akatsuki_bbrack",
-        link:"https://brawlstats.com/profile/2U9CUQP0"
+       
     },
     {
         flag:"jp",
         name:"Shanaku",
         twitter:"https://twitter.com/ishana0",
-        link:"https://brawlstats.com/profile/2LJVC9"
+        
     },
 ]
 
 for(i = 0; i < bsMem.length; i++){
     var flagLink = "";
     if(bsMem[i].flag == "us"){
-        flagLink = "https://www.countries-ofthe-world.com/flags-normal/flag-of-United-States-of-America.png";
+        flagLink = "us-flag.png";
     }else{
-        flagLink="https://www.countries-ofthe-world.com/flags-normal/flag-of-Japan.png";
+        flagLink="jp-flag.png";
     }
     $('.bsMem').append( 
         '<div class="row">'+
@@ -213,6 +213,5 @@ for(i = 0; i < bsMem.length; i++){
             '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+flagLink+'"></div>'+
             '<div class="list-name col-8 col-sm-8"><h3>'+ bsMem[i].name +'</h3></div>'+
             '<div class="list-icon col-6 col-sm-1"><a href="'+ bsMem[i].twitter +'" class="fa fa-twitter"></a></div>'+
-            '<div class="list-img col-6 col-sm-1"><a href="'+ bsMem[i].link +'"><img src="brawlstats.png" class="stats-icon"></a></div>'+
         '</div>');
 }
