@@ -1,22 +1,65 @@
 .title {
     color: white;
+    margin-top:60px;
+    margin-bottom:20px;
 }
 
-.teamLogo {
-    width: 60px;
-    vertical-align: top;
-}
 
-.matches {
-    color: white;
-}
-
-#overflowTest {
-    background: #333333;
+.overflowTest {
+    background: #111111;
     color: white;
     padding: 15px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: scroll;
-    border: 1px solid #ccc;
-  }
+    border: none;
+    margin-bottom:100px;
+}
+
+.twitterBox{
+    margin-bottom:100px;
+    max-width:100%;
+    max-width:500px;
+}
+
+.scoreboardList {
+    color: white;
+}
+.scoreboardList .row{
+    min-height:100px;
+    padding:20px;
+}
+.scoreboardList .list-Oname {
+    text-align: left;
+    padding-top:20px;
+}
+
+.scoreboardList .list-RSname {
+    text-align: right;
+    padding-top:20px;
+}
+.scoreboardList .list-RSlogo img{
+    object-fit: contain;
+    width:100%;
+}
+.scoreboardList .list-Ologo img{
+    object-fit: contain;
+    width:100%;
+}
+hr{
+    border: darkred 1px dashed;
+}
+@media only screen and (max-width: 414px){
+    .scoreboardList .list-Oname {
+        text-align: center;
+    }
+    .scoreboardList .list-RSname {
+        text-align: center;
+    }
+    .scoreboardList .list-RSlogo img{
+        max-width:50%;
+    }
+    .scoreboardList .list-Ologo img{
+        max-width:50%;
+    }
+}

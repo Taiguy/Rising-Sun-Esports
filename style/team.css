@@ -1,3 +1,4 @@
+
 #banner{
     position: relative;
 }
@@ -88,7 +89,7 @@ hr{
 
 .member-list .row{
     margin-top:25px;
-    padding-top:6px;
+    padding-top:10px;
 }
 .member-list .row:hover{
     background-color:rgba(255,255,255,0.1);
@@ -98,10 +99,13 @@ hr{
 }
 .list-flag img{
     margin:auto;
-    margin-top:7px;
+    margin-top:5px;
 }
 .list-name{
     text-align:left;
+}
+.list-name h3{
+    font-weight: bold;
 }
 .list-icon{
     text-align:center;
@@ -127,6 +131,15 @@ hr{
 }
 
 @media only screen and (max-width: 414px){
+    #banner h1{
+        font-size:35px;
+    }
+    .title{
+        font-size:30px;
+    }
+    .member-list h3{
+        font-size:25px;
+    }
     .table{
         min-width: 100%;
     }

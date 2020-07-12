@@ -1,0 +1,26 @@
+.jumbotron{
+    color:white;
+}
+.jumbotron h1{
+    margin:200px;
+}
+.lead{
+    font-size:30px;
+}
+p{
+    font-size:20px;
+    line-height:50px;
+}
+.jumbotron .container{
+    text-align: justify;
+}
+
+#contact h1{
+    margin-bottom:40px;
+}
+
+#contact {
+    color: white;
+    text-align: center;
+    margin-bottom:100px;
+}

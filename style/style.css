@@ -1,6 +1,17 @@
+@font-face{
+    font-family: Gotham;
+    src: url(../fonts/Gotham.otf)
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: Gotham;
+    text-transform: uppercase;
+}
 body{
-    background: #333333;
+    background: #330000;
     text-align: center;
+}
+.navbar{
+    background-color: darkred !important;
 }
 nav li{
     font-size: 21px;
@@ -14,9 +25,6 @@ nav li{
 }
 .dropdown-item{
     text-align: center;
-}
-.space{
-    height:1000px;
 }
 footer{
     background-color: #3f3f3f;
