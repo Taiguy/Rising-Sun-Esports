@@ -53,17 +53,27 @@
     text-align: left;
 }
 .text-space{
-    padding:15px;
+    padding:20px;
 }
-.table .fa{
+.table .fa-twitter{
     color:#00ACEE;
-    margin-right:50px;
+    margin-right:40px;
+}
+.member-list{
+    font-size:30px;
+}
+.table .fa-youtube{
+    color:white;
 }
 .table .fa:hover{
-    color:lightblue;
+    color:lightgray;
     text-decoration: none;
 }
-
+tr:hover{
+    background-color:rgba(255,255,255,0.2);
+    overflow: hidden;
+    border-radius: 5px;
+}
 .flag{
     width:35px;
 }
@@ -80,7 +90,25 @@ hr{
     border:dashed white 1px
 }
 
-@media only screen and (max-width: 768px){
+
+.list-num{
+    text-align: right;
+}
+.list-flag img{
+    margin:auto;
+    margin-top:7px;
+}
+.list-name{
+    text-align:left;
+}
+.list-icon{
+    text-align:left;
+}
+.list-img{
+    text-align:left;
+}
+
+@media only screen and (max-width: 414px){
     .table{
         min-width: 100%;
     }
