@@ -2,7 +2,7 @@
     font-family: Gotham;
     src: url(../fonts/Gotham.otf)
 }
-h1,h2,h3,h4,h5,h6,a{
+h1,h2,h3,h4,h5,h6,a,th{
     font-family: Gotham;
     font-weight: bold;
     text-transform: uppercase;
