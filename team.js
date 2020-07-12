@@ -207,16 +207,12 @@ for(i = 0; i < bsMem.length; i++){
     }else{
         flagLink="https://www.countries-ofthe-world.com/flags-normal/flag-of-Japan.png";
     }
-    // $('.bsMem').append( '<tr>'+
-    //                         '<th scope="row"><img class="flag" src="'+ flagLink +'" alt="jp"><span class="text-space"></span>'+ bsMem[i].name +'</th>' +
-    //                         '<td><a href="'+ bsMem[i].twitter+'" class="fa fa-twitter"></a><a href="'+ bsMem[i].link +'"><img src="../../images/brawlstats.png" alt="brawlstats" class="stats-icon"></a></td>' +
-    //                     +'</tr>');
     $('.bsMem').append( 
         '<div class="row">'+
             '<div class="list-num col-2 col-sm-1"><h3>' + (i+1) + '</h3></div>'+
             '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+flagLink+'"></div>'+
             '<div class="list-name col-8 col-sm-8"><h3>'+ bsMem[i].name +'</h3></div>'+
             '<div class="list-icon col-6 col-sm-1"><a href="'+ bsMem[i].twitter +'" class="fa fa-twitter"></a></div>'+
-            '<div class="list-img col-6 col-sm-1"><a href="'+ bsMem[i].link +'"><img src="../../images/brawlstats.png" class="stats-icon"></a></div>'+
+            '<div class="list-img col-6 col-sm-1"><a href="'+ bsMem[i].link +'"><img src="brawlstats.png" class="stats-icon"></a></div>'+
         '</div>');
 }
