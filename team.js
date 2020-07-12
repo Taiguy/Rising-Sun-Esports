@@ -162,9 +162,9 @@ var crMem = [
 for(i = 0; i < crMem.length; i++){
     var flagLink = "";
     if(crMem[i].flag == "us"){
-        flagLink = "https://www.countries-ofthe-world.com/flags-normal/flag-of-United-States-of-America.png";
+        flagLink = "us-flag.png";
     }else{
-        flagLink="https://www.countries-ofthe-world.com/flags-normal/flag-of-Japan.png";
+        flagLink="jp-flag.png";
     }
     $('.crMem').append(
         '<div class="row">' +
