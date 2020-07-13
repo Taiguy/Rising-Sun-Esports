@@ -3,9 +3,13 @@
     src: url(Gotham.otf)
 }
 h1,h2,h3,h4,h5,h6,a,th{
+    color:white;
     font-family: Gotham;
     font-weight: bold;
     text-transform: uppercase;
+}
+p{
+    color:white;
 }
 body{
     background: #330000;
@@ -21,8 +25,14 @@ nav li{
 #nav-logo{
     height:66px;
 }
+#nav-logo:hover{
+    filter: brightness(75%);
+}
 #nav-space{
     height:66px;
+}
+.nav-link:hover{
+    color:lightgray !important;
 }
 .dropdown-item{
     text-align: center;

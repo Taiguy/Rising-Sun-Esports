@@ -1,0 +1,56 @@
+#banner-image{
+    object-fit: contain;
+    width:100%;
+}
+.title{
+    margin-top:150px;
+    margin-bottom:50px;
+}
+hr{
+    border:dashed darkred 1px;
+}
+#description{
+    text-align:justify;
+    line-height: 35px;
+    font-size:20px;
+}
+.card{
+    background-color: rgba(0,0,0,0.3);
+}
+.groups{
+    padding:25px;
+}
+.group-title{
+    margin-top:30px;
+}
+
+.winner {
+    color:#D4AF37;
+}
+.team-rank{
+    text-align:right;
+    font-size:20px;
+}
+.team-name {
+    text-align: left;
+    font-size:20px;
+}
+.sponsor{
+    display:flex;
+    justify-content: center;
+    margin-bottom:100px;
+}
+.sponsor img{
+    width:70%;
+}
+
+.first{
+    color:gold;
+}
+
+.second {
+    color:silver;
+}
+.space{
+    height:50px;
+}
