@@ -54,4 +54,7 @@ hr{
     .scoreboardList .list-Ologo img{
         max-width:50%;
     }
+    .overflowTest {
+        width: 80%;
+    }
 }

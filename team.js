@@ -171,7 +171,7 @@ for(i = 0; i < crMem.length; i++){
             '<div class="list-num col-2 col-sm-1"><h3>'+ (i+1) +'</h3></div>'+
             '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+ flagLink +'"></div>'+
             '<div class="list-name col-8 col-sm-8"><h3>'+ crMem[i].name +'</h3></div>'+
-            '<div class="list-icon col-6 col-sm-1"><a href="'+ crMem[i].twitter +'" class="fa fa-twitter"></a></div>'+
+            '<div class="list-icon col-6 col-sm-1"><a href="'+ crMem[i].twitter +'"><img src="twitter-blue.png" class="stats-icon"></img></a></div>'+
             '<div class="list-img col-6 col-sm-1"><a href="'+ crMem[i].link +'"><img src="https://brand.royaleapi.com/logo/royaleapi-logo.png?b501a80b417cb2e8" class="stats-icon"></a></div>'+
         '</div>')
 }
@@ -212,6 +212,14 @@ for(i = 0; i < bsMem.length; i++){
             '<div class="list-num col-2 col-sm-1"><h3>' + (i+1) + '</h3></div>'+
             '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+flagLink+'"></div>'+
             '<div class="list-name col-8 col-sm-8"><h3>'+ bsMem[i].name +'</h3></div>'+
-            '<div class="list-icon col-6 col-sm-1"><a href="'+ bsMem[i].twitter +'" class="fa fa-twitter"></a></div>'+
+            '<div class="list-icon col-6 col-sm-1"><a href="'+ bsMem[i].twitter +'"><img src="twitter-blue.png" class="stats-icon"></img></a></div>'+
         '</div>');
+}
+
+$('a[data-toggle="tab"]').on('show.bs.tab',function(e){
+    localStorage.setItem('activeTab', $(e.target).attr('href'));
+})
+var activeTab = localStorage.getItem('activeTab');
+if(activeTab){
+    $('#member-tabs a[href="'+activeTab + '"]').tab('show');
 }

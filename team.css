@@ -82,9 +82,6 @@ tr:hover{
 .space{
     height:200px;
 }
-hr{
-    border:dashed white 1px
-}
 
 
 .member-list .row{
@@ -110,9 +107,6 @@ hr{
 .list-icon{
     text-align:center;
 }
-.list-icon .fa-twitter{
-    color:#00ACEE;
-}
 .list-icon .fa-youtube{
     color:white;
 }
@@ -127,7 +121,7 @@ hr{
     width:30px;
 }
 .stats-icon:hover{
-    filter:brightness(150%);
+    filter:brightness(50%);
 }
 
 @media only screen and (max-width: 600px){

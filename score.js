@@ -40,6 +40,22 @@ var matches = [
         oName:"Team CMC"
     },
     {
+        date:"7/20/2020",
+        time:"21:30 JST",
+        league:"Asia City League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/islamabad-allstar.png?t=464034903c4ad4176910eccf1ed48efee4e9ad1d",
+        oName:"Islamabad All Star"
+    },
+    {
+        date:"7/21/2020",
+        time:"20:00 JST",
+        league:"Asia City League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/seoul-celestials.png?t=32193704acb2d1a991f1ccde231d4cb138f368ed",
+        oName:"Seoul Celestials"
+    },
+    {
         date:"7/21/2020",
         time:"21:00 JST",
         league:"GKR Leagues",
@@ -54,6 +70,14 @@ var matches = [
         score:" - ",
         oLogo:"https://lh3.googleusercontent.com/d/19OuJJv2fzvQIofKuplog7eGrbzVom40M",
         oName:"Team STK"
+    },
+    {
+        date:"7/27/2020",
+        time:"20:45 JST",
+        league:"Asia City League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/hongkong-noobies.png?t=54e61d970babe79edf4db47bfb7f8926301de0f5",
+        oName:"Hong Kong Noobies"
     },
     {
         date:"7/28/2020",

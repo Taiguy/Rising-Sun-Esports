@@ -1,0 +1,48 @@
+.achievement-list{
+    padding-bottom:100px;
+}
+.achievement-list .card-header{
+    padding:0;
+}
+.achievement-list .row{
+    padding-top:15px;
+}
+#achievement .row:hover{
+    background-color: rgba(255,255,255,0.2)!important;
+    cursor: pointer;
+}
+#achievement .selected{
+    background-color: rgba(255,255,255,0.2)!important;
+}
+.achievement-list .card-body{
+    font-family: serif;
+    background-color:darkred;
+    padding-right:5%;
+    padding-left:5%;
+}
+
+.game-icon{
+    width:100%;
+    max-width:90px;
+}
+
+.gold h3,.gold .fas{
+    color:gold;
+}
+.silver h3,.silver .fas{
+    color:silver;
+}
+.bronze h3,.bronze .fas{
+    color: #cd7f32;
+}
+.white h3,.white .fas{
+    color: white;
+}
+@media only screen and (max-width: 414px){
+    .achievement-list h3{
+        font-size:12px;
+    }
+    .achievement-list .card-body{
+        font-size:12px;
+    }
+}
