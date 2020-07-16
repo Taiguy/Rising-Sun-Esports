@@ -4,32 +4,38 @@ var nav = {
         home: "home 1",
         about: "",
         team: "",
-        lang: ""
+        achievements:"",
+        lang: "",
     },
     link: {
         home: "",
         about: "",
         team: "",
+        achievements:"",
         rsl: "",
     }
 }
 if($("nav").attr('id') == "en"){
     nav.name.home = "HOME";
     nav.name.about = "ABOUT";
-    nav.name.team = "TEAM";
+    nav.name.team = "TEAMS";
+    nav.name.achievements = "ACHIEVEMENTS";
     nav.name.lang = "LANG";
     nav.link.home = "index.html";
     nav.link.about = "about.html";
     nav.link.team = "team.html";
+    nav.link.achievements = "achievements.html";
     nav.link.rsl = "rsl-1.html";
 }else{
     nav.name.home = "ホーム";
     nav.name.about = "チームについて";
     nav.name.team = "部門紹介";
+    nav.name.achievements = "実績";
     nav.name.lang = "言語";
     nav.link.home = "index-jp.html";
     nav.link.about = "about-jp.html";
     nav.link.team = "team-jp.html";
+    nav.link.achievements = "achievements-jp.html";
     nav.link.rsl = "rsl-1-jp.html";
 }
 $('nav').html(
@@ -44,11 +50,13 @@ $('nav').html(
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.home+'">'+nav.name.home+'</a>'+
             '</li>'+
-            '<li class="nav-item active">'+
-                '<a class="nav-link" href="'+nav.link.about+'">'+nav.name.about+'</a>'+
-            '</li>'+
-            '<li class="nav-item active">'+
-                '<a class="nav-link" href="'+nav.link.team+'">'+nav.name.team+'</a>'+
+            '<li class="nav-item active dropdown">'+
+                '<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+nav.name.about+'</a>'+
+                '<div class="dropdown-menu" style="right:0; left:auto;" aria-labelledby="navbarDropdown">'+
+                    '<a class="dropdown-item" href="' + nav.link.about + '">' + nav.name.about + '</a>' +
+                    '<a class="dropdown-item" href="' + nav.link.team+ '">' + nav.name.team +'</a>'+
+                    '<a class="dropdown-item" href="' + nav.link.achievements+'">' + nav.name.achievements +'</a>'+
+                '</div>'+
             '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.rsl+'">RSL</a>'+
