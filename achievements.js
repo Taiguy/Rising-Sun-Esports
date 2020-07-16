@@ -111,7 +111,7 @@ for(i = 0; i < achievements.length; i++) {
                     '<div class="list-team col-2 text-center"><img src="'+ gameImage + '" class="game-icon"></div>'+
                     '<div class="list-event col-2 text-center"><h3>' + achievements[i].year + '</h3></div>' +
                     '<div class="list-event col-6 text-center"><h3>' + achievements[i].event + '</h3></div>' +
-                    '<div class="list-placement col-2 '+color+' text-center"><h3>' + achievements[i].rank +" "+ crown +'</h3></div>'+
+                    '<div class="list-placement col-2 '+color+' text-center" id="rank"><h3>' + achievements[i].rank +" "+ crown +'</h3></div>'+
                 '</div>'+
             '</div>'+
             '<div id="collapse'+achievements[i].collapseNum+'" class="collapse" aria-labelledby="heading'+achievements[i].collapseNum+'" data-parent="#achievement">'+

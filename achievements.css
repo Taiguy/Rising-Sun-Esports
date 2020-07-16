@@ -40,9 +40,18 @@
 }
 @media only screen and (max-width: 414px){
     .achievement-list h3{
-        font-size:12px;
+        font-size:8px;
     }
     .achievement-list .card-body{
         font-size:12px;
+    }
+    .col-2, .col-6{
+        padding:0;
+    }
+    .game-icon{
+        padding-left:15px;
+    }
+    #rank{
+        padding-right:15px;
     }
 }
