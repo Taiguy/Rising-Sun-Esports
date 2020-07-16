@@ -108,7 +108,7 @@ for(i = 0; i < achievements.length; i++) {
         '<div class="card bg-transparent text-white">' +
             '<div class="card-header" id="heading'+achievements[i].collapseNum+'">' +
                 '<div class="bg-transparent row" data-toggle="collapse" data-target="#collapse'+achievements[i].collapseNum+'" aria-expanded="false" aria-controls="collapse'+achievements[i].collapseNum+'">'+
-                    '<div class="list-team col-2 text-center"><img src="'+ gameImage + '" class="game-icon"></div>'+
+                    '<div class="list-team col-2 text-center" id="game"><img src="'+ gameImage + '" class="game-icon"></div>'+
                     '<div class="list-event col-2 text-center"><h3>' + achievements[i].year + '</h3></div>' +
                     '<div class="list-event col-6 text-center"><h3>' + achievements[i].event + '</h3></div>' +
                     '<div class="list-placement col-2 '+color+' text-center" id="rank"><h3>' + achievements[i].rank +" "+ crown +'</h3></div>'+
@@ -122,9 +122,3 @@ for(i = 0; i < achievements.length; i++) {
         '</div>'
     );
 }
-
-// $('#achievement .row').click(function(){
-//     $('#achievement .row').removeClass('selected');
-//     $(this).addClass('selected');
-//     if($('#achievement .row').)
-// });

@@ -28,7 +28,10 @@
     color:white;
 }
 #member-tabs .active{
-    color:black
+    color:black;
+}
+#member-tabs .active:hover{
+    color:black!important;
 }
 .tab-content{
     color:white;
