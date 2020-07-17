@@ -35,7 +35,7 @@ var matches = [
         date:"7/16/2020",
         time:"20:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1oo2hpjF-iELKulmgFTf5OxiF_mtBOYkO",
         oName:"Team CMC"
     },
