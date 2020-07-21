@@ -2,6 +2,15 @@ var achievements = [
     {
         game:"BS",
         year:"2020",
+        event:"Brawl Stars Championship July 2020 Qualifier",
+        rank:"Top 16",
+        descriptionEN:"316 teams competed in the July Qualifiers for the Brawl Stars Championship. KIX Rising Sun beat ブロスタUOEH, First Base, and Chick-bear-grinning to finish the first day of the tournament without losing a single set. However, KIX Rising Sun lost to QWERTY in the Round of 16. ",
+        descriptionJP:"７月の Brawl Stars Championship予選には３１６チームが参戦しました。KIX Rising Sun は１回戦と２回戦シード権を与えられ、初日はブロスタUOEH、First Base、Chick-bear-grinningに勝利しました。続く２日目はQWERTYに敗れ、トップ１６でトーナメントを終えました。",
+        collapseNum:"one"
+    },
+    {
+        game:"BS",
+        year:"2020",
         event:"Brawl Stars Championship June 2020 Qualifier",
         rank:"4th",
         descriptionEN:"KIX Rising Sun, formerly known as きまぐれ P.R.O, competed in the June Qualifiers for the Brawl Stars Championship. 361 teams competed in the Qualifiers tournament, and KIX Rising Sun had a first-round bye. The team won comfortably, beating Panna Cotta, PSG Esports, Duy Anh Esport, IGC, Cloud Gaming, and Fire Scale Esports. In the semi-finals, KIX Rising Sun was defeated by 君が名はB-Boy指定, and for the third place match, SK Miracle took the win, resulting in a 4th place finish.",

@@ -43,7 +43,7 @@ var matches = [
         date:"7/20/2020",
         time:"21:30 JST",
         league:"Asia City League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/islamabad-allstar.png?t=464034903c4ad4176910eccf1ed48efee4e9ad1d",
         oName:"Islamabad All Star"
     },
