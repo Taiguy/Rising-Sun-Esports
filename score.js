@@ -48,10 +48,18 @@ var matches = [
         oName:"Islamabad All Star"
     },
     {
+        date:"7/20/2020",
+        time:"23:30 JST",
+        league:"Clash Cup",
+        score:"9 - 8",
+        oLogo:"https://lh3.googleusercontent.com/d/1gR-aQTYnNaJnrbeA6EUSqgDujPbZhI2S",
+        oName:"Team TyrNE"
+    },
+    {
         date:"7/21/2020",
         time:"20:00 JST",
         league:"Asia City League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/seoul-celestials.png?t=32193704acb2d1a991f1ccde231d4cb138f368ed",
         oName:"Seoul Celestials"
     },
@@ -59,9 +67,17 @@ var matches = [
         date:"7/21/2020",
         time:"21:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/11jqLJyrxOvwRVBfDE6yBqlCx9sj-csFu",
         oName:"Stalwart Esports"
+    },
+    {
+        date:"7/22/2020",
+        time:"21:30 JST",
+        league:"Neo Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1lqQKWR-E0_RN0GG-mfa-Ob0X0KxyN4Yr",
+        oName:"Intellectuals Gulfnation"
     },
     {
         date:"7/23/2020",
@@ -70,6 +86,14 @@ var matches = [
         score:" - ",
         oLogo:"https://lh3.googleusercontent.com/d/19OuJJv2fzvQIofKuplog7eGrbzVom40M",
         oName:"Team STK"
+    },
+    {
+        date:"7/25/2020",
+        time:"00:00 JST",
+        league:"Neo Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1gR-aQTYnNaJnrbeA6EUSqgDujPbZhI2S",
+        oName:"Team TyrNE"
     },
     {
         date:"7/27/2020",
