@@ -75,7 +75,7 @@ var matches = [
         date:"7/22/2020",
         time:"21:30 JST",
         league:"Neo Clash League",
-        score:" - ",
+        score:"0 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1lqQKWR-E0_RN0GG-mfa-Ob0X0KxyN4Yr",
         oName:"Intellectuals Gulfnation"
     },
@@ -83,7 +83,7 @@ var matches = [
         date:"7/23/2020",
         time:"21:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/19OuJJv2fzvQIofKuplog7eGrbzVom40M",
         oName:"Team STK"
     },
@@ -91,7 +91,7 @@ var matches = [
         date:"7/25/2020",
         time:"00:00 JST",
         league:"Neo Clash League",
-        score:" - ",
+        score:"0 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1gR-aQTYnNaJnrbeA6EUSqgDujPbZhI2S",
         oName:"Team TyrNE"
     },
