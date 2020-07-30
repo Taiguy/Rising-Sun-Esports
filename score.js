@@ -99,7 +99,7 @@ var matches = [
         date:"7/27/2020",
         time:"20:45 JST",
         league:"Asia City League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/hongkong-noobies.png?t=54e61d970babe79edf4db47bfb7f8926301de0f5",
         oName:"Hong Kong Noobies"
     },
@@ -107,7 +107,7 @@ var matches = [
         date:"7/28/2020",
         time:"22:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/team-barbie.png?t=0a0eb52a3f84463aa68695a269815f143fa00cd6",
         oName:"Team Barbie"
     },
