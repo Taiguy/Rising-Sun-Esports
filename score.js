@@ -115,7 +115,7 @@ var matches = [
         date:"7/30/2020",
         time:"22:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"2 - 1",
         oLogo:"https://lh3.googleusercontent.com/d/13buDXG5y1lQWs4B2x7VOT3AO7jnZAKGJ",
         oName:"ERN APAC"
     },
