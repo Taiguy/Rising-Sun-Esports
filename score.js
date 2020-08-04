@@ -5,7 +5,7 @@ var matches = [
         league:"Asia City League",
         score:"1 - 2",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/jakarta-bandits.png?t=2d9e93c62ac734ed9485cb360caeb598b5f02935",
-        oName:"Jakarta Babies"
+        oName:"Jakarta Bandits"
     },
     {
         date:"8/4/2020",
@@ -46,6 +46,14 @@ var matches = [
         score:" - ",
         oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
         oName:"Dignitas"
+    },
+    {
+        date:"8/11/2020",
+        time:"20:00 JST",
+        league:"Asia City League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/newdelhi-babies.png?t=caf07fca3d78659c73bc991b81a584bc06c53109",
+        oName:"New Delhi Babies"
     },
     {
         date:"8/11/2020",
