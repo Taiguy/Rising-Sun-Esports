@@ -51,12 +51,6 @@ var crMem = [
     },
     {
         flag:"",
-        name:"Tempura",
-        twitter:"https://twitter.com/tenten_cr3",
-        link:"https://royaleapi.com/player/8Q2V2CGR"
-    },
-    {
-        flag:"",
         name:"かめ",
         twitter:"https://twitter.com/kameballoon",
         link:"https://royaleapi.com/player/RY9UPG2L"
