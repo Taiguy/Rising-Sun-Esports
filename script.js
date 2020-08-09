@@ -40,7 +40,7 @@ if($("nav").attr('id') == "en"){
 }
 $('nav').html(
     '<a class="navbar-brand" href="index.html">'+
-        '<img id="nav-logo" src="https://cdn.royaleapi.com/static/img/team/logo/rising-sun-esports.png?t=2eb256a2bcfa35871d9292596a14a8805f3bf9b2" alt="Rising-Sun-Logo" loading="lazy">'+
+        '<img id="nav-logo" src="https://lh3.googleusercontent.com/d/1yveknDxbbUczDOIdSi-dOGpQC108mx6J" alt="Rising-Sun-Logo" loading="lazy">'+
     '</a>'+
     '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">'+
         '<span class="navbar-toggler-icon"></span>'+

@@ -135,7 +135,7 @@ for(i = 0; i < matches.length; i++){
         '<div class="row">' +
             '<div class="list-date col-12 col-sm-2"><h5>'+matches[i].date+'</h5><h6>'+matches[i].time+'</h6></div>'+
             '<div class="list-RSname col-12 col-sm-3"><h6>Rising Sun Esports</h6></div>'+
-            '<div class="list-RSlogo col-12 col-sm-1"><img class="teamLogo" src="https://lh3.googleusercontent.com/d/1jrfEuVtspWxIEt5vWFpmNSRMj_HM_kD0" alt="Rising Sun Esports"></div>'+
+            '<div class="list-RSlogo col-12 col-sm-1"><img class="teamLogo" src="https://lh3.googleusercontent.com/d/1yveknDxbbUczDOIdSi-dOGpQC108mx6J" alt="Rising Sun Esports"></div>'+
             '<div class="list-league col-12 col-sm-2"><h6>'+matches[i].league+'</h6><h3>'+matches[i].score+'</h3></div>'+
             '<div class="list-Ologo col-12 col-sm-1"><img class="teamLogo" src=" '+matches[i].oLogo + '" alt=" '+matches[i].oName+'"></a></div>'+
             '<div class="list-Oname col-12 col-sm-3"><h6>'+matches[i].oName+'</h6></div>'+
