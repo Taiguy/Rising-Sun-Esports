@@ -11,7 +11,7 @@ var matches = [
         date:"8/4/2020",
         time:"23:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1rkzypLL4a6mLRETdGl4_OrL_1fxScsvn",
         oName:"Clash2IT APAC"
     },
@@ -19,7 +19,7 @@ var matches = [
         date:"8/6/2020",
         time:"23:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"2 - 1",
         oLogo:"https://lh3.googleusercontent.com/d/1PhWr4blgFoRaOeQ9EbDwDvBQCAYj7Rvi",
         oName:"ISW Team"
     },
@@ -27,7 +27,7 @@ var matches = [
         date:"8/8/2020",
         time:"6:00 JST",
         league:"SSG Cup",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
         oName:"Dignitas"
     },
@@ -35,7 +35,7 @@ var matches = [
         date:"8/8/2020",
         time:"22:00 JST",
         league:"Gem League",
-        score:" - ",
+        score:"2 - 1",
         oLogo:"https://lh3.googleusercontent.com/d/1mEj9xsqoHuSoRlmdtWTKsc3hRcYbVVxF",
         oName:"EGS Phoenix"
     },
