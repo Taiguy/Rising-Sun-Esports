@@ -48,18 +48,10 @@ var matches = [
         oName:"ERN NA"
     },
     {
-        date:"8/9/2020",
-        time:"20:00 JST",
-        league:"Scrim",
-        score:" - ",
-        oLogo:"https://lh3.googleusercontent.com/d/1xe2yyV8ttOT3lKh7Zjwrv7DlAqiikjSG",
-        oName:"Instinct Esports"
-    },
-    {
         date:"8/11/2020",
         time:"20:00 JST",
         league:"Asia City League",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/newdelhi-babies.png?t=caf07fca3d78659c73bc991b81a584bc06c53109",
         oName:"New Delhi Babies"
     },
@@ -67,7 +59,7 @@ var matches = [
         date:"8/13/2020",
         time:"3:00 JST",
         league:"SSG Cup",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
         oName:"Dignitas"
     },
@@ -75,7 +67,7 @@ var matches = [
         date:"8/11/2020",
         time:"23:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"2 - 1",
         oLogo:"https://lh3.googleusercontent.com/d/1fgjtsMcjJUjQ6NFqJL_H3xuJKY11TA2W",
         oName:"AUN Gaming"
     },
