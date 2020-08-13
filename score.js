@@ -56,7 +56,7 @@ var matches = [
         oName:"New Delhi Babies"
     },
     {
-        date:"8/13/2020",
+        date:"8/12/2020",
         time:"3:00 JST",
         league:"SSG Cup",
         score:"1 - 2",
