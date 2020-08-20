@@ -1,149 +1,58 @@
-
-#banner{
-    position: relative;
-}
-#banner h1{
-    position: absolute;
-    top:40%;
-    left:0;
-    right:0;
-    margin:auto;
-    font-size: 60px;
-    color:white;
-}
-#banner img{
-    object-fit: cover;
-    object-position: 100% 50%;
-    width:100%;
-    max-height:300px;
-    filter: brightness(70%);
-}
-#member-tabs .active{
-    background-color: #eeeeee;
-}
-#member-tabs .nav-link{
-    padding: 30px;
-}
-#member-tabs a{
-    color:white;
-}
-#member-tabs .active{
-    color:black;
-}
-#member-tabs .active:hover{
-    color:black!important;
-}
-.tab-content{
-    color:white;
-}
-
-
-.title{
-    font-size: 40px;
-    text-align: left;
-    margin-top:20px;
-}
-
-
-.table{
-    width:90%;
-    min-width:600px;
-    text-align: center;
-    font-size:30px;
-    background:none;
-    color:white;
-}
-.table th{
-    text-align: left;
-}
-.text-space{
-    padding:20px;
-}
-.table .fa-twitter{
-    color:#00ACEE;
-    margin-right:40px;
-}
-.member-list{
-    font-size:30px;
-}
-.table .fa-youtube{
-    color:white;
-}
-.table .fa:hover{
-    color:lightgray;
-    text-decoration: none;
-}
-tr:hover{
-    background-color:rgba(255,255,255,0.2);
-    overflow: hidden;
-    border-radius: 5px;
-}
-.flag{
-    width:35px;
-}
-
-.space{
-    height:200px;
-}
-
-
-.member-list .row{
-    margin-top:25px;
-    padding-top:10px;
-}
-.member-list .row:hover{
-    background-color:rgba(255,255,255,0.1);
-}
-.list-num{
-    text-align: right;
-}
-.list-flag img{
-    margin:auto;
-    margin-top:5px;
-}
-.list-name{
+.teams{
+    display:flex;
     text-align:left;
 }
-.list-name h3{
-    font-weight: bold;
+.teams .row{
+    width:100%;
 }
-.list-icon{
-    text-align:center;
+.teams div{
+    padding:0;
+    margin:0;
 }
-.list-icon .fa-youtube{
-    color:white;
+.teams .team{
+    padding:30px;
 }
-.list-icon .fa:hover{
-    color:lightgray;
-    text-decoration: none;
+hr{
+    margin-left:0;
+    width:100%;
 }
-.list-img{
-    text-align:center;
+.header{
+    font-size:25px;
+    margin:20px auto 5px 5px;
 }
-.stats-icon{
-    width:30px;
+.player .name{
+    flex-grow:1;
 }
-.stats-icon:hover{
+.player{
+    display:flex;
+}
+.player img{
+    height:20px;
+    margin:0 10px;
+}
+.player h6{
+    font-size:18px;
+}
+.icon img:hover{
     filter:brightness(50%);
 }
 
-@media only screen and (max-width: 600px){
-    #banner h1{
-        font-size:35px;
+@media only screen and (max-width: 1020px){
+    .teams .team{
+        padding:10;
     }
-    .title{
-        font-size:30px;
+    .header{
+        font-size:16px;
+        margin:20px auto 0px 0px;
     }
-    .member-list h3{
-        font-size:25px;
+    .player h6{
+        font-size:12px;
     }
-    .table{
-        min-width: 100%;
+    .player img{
+        height:14px;
+        margin:0 10px;
     }
-    .text-space{
-        padding:5px;
-    }
-    h1{
-        font-size:25px;
+    hr{
+        margin:10px 0;
     }
 }

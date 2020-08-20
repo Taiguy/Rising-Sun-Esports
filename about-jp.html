@@ -1,53 +1,204 @@
-<html> 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>RS | About Us</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="about.css">
-        <link rel="icon" href="https://lh3.googleusercontent.com/d/1yveknDxbbUczDOIdSi-dOGpQC108mx6J">
-    </head>
-    <body>
+<html>
 
-        <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark" id="jp"></nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RS | About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="rs-logo1.png">
+</head>
 
-        <div id="nav-space"></div>
-        <div class="container" style="background-color:#330000">
-            <div class="container video-box">
-                <iframe src="https://www.youtube.com/embed/4TuwVZRpmHw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <!-- <h1 class="display-4">First to Rise Last to Fall!</h1> -->
-            
-            <p id="hashtag">#RSWin!</p>
-            
-            <hr>
-            <p id="description">Rising Sun Esportsは2019年に創立された日本のEsports組織です。ブロスタ部門ではプロチームとして、クラロワ部門ではセミプロチームとして、合計40人を超えるメンバーで活動しています。
+<body>
 
-                Rising Sun Esportsは、日本にEsportsを普及させるという目的のもと活動を行っています。各選手がトップレベルのプレイができるよう、コーチングやサポートを行っています。
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark" id="jp"></nav>
+    <div id="nav-space"></div>
+    <div id="banner">
+        <img class="banner-img" src="banner.png" alt="Rising-Sun-Banner">
+        <h1>ABOUT US</h1>
+    </div>
+
+
+    <div class="container">
+
+        <!-- tabs -->
+        <ul class="nav nav-tabs nav-justified" id="member-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="general-tab" data-toggle="tab" href="#general" role="tab"
+                    aria-controls="general" aria-selected="false">一般</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="staff-tab" data-toggle="tab" href="#staff" role="tab"
+                    aria-controls="staff" aria-selected="true">スタッフ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="achievements-tab" data-toggle="tab" href="#achievements" role="tab"
+                    aria-controls="achievements" aria-selected="true">実績</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">お問い合わせ</a>
+            </li>
+        </ul>
+        
+        <div class="tab-content" id="myTabContent">
+            <!-- GENERAL -->
+            <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="rs-logo1.png" alt="rs logo">
+                        <p id="hashtag">#RSWin!</p>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <p id="description">
+                            Rising Sun Esports is an international Esports organization established in 2019 based in Japan. With a professional Brawl Stars team and two semi-pro Clash Royale teams for North America (NA) and Asia-Pacific (APAC), we have grown into an organization of over 100 members.
+                            <br><br>
+                            Throughout our teams, we are expanding and exposing the community to the world's competitive Esports scene. We are committed to ensure that every member is held at the highest standard, while providing excellent coaching and player support. With plans for future expansion and success, Rising Sun Esports stands at the forefront of the Japanese Esports community.
+                            <br><br>
+                            Rising Sun Esports has already had great success with numerous championships. Our professional Brawl Stars team has showcased their talent in multiple Brawl Stars Championships, and our Clash Royale teams has shown dominance, not only in Japan, but also in Asia and worldwide.
+                        </p>
+                    </div>
+                </div>
                 
-                Rising Sun Esportsのブロスタ部門では、ブロスタチャンピオンシップなどの大会で功績を残してきました。クラロワ部門では、様々な国際的な大会で優勝をしたり、日本代表としてWorld CupやWorld Royale Leagueに出場してきました。
-            </p>
-        </div>
+                <div class="video-box">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/fPRXk8zZiZI" frameborder="0"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- staff members -->
+            <div class="tab-pane fade" id="staff" role="tabpanel" aria-labelledby="staff-tab">
 
-        <div id="contact">
-            <h1>お問い合わせ</h1>
-            <p>チームに関するご質問等は、以下のメールアドレスにお問い合わせください。:</p>
-            <p style="font-size: 24px"><a href="mailto:EsportsRisingSun@gmail.com">EsportsRisingSun@gmail.com</a></p>
-            <br><br>
-            <p>Twitterでのお問い合わせ:</p>
-            <p style="font-size: 24px"><a href="https://twitter.com/RisingSun_GG">@RisingSun_GG</a></p>
-        </div>
-        <footer></footer>
+                <div class="members">
+                    <div class="member">
+                        <div class="role col-3"><h6>Owner</h6></div>
+                        <div class="name"><h6>Sho 翔</h6></div>
+                        <div class="col-1">
+                            <a href="https://twitter.com/Sho_RS_CR">
+                                <img src="twitter.png"class="stats-icon"></img>
+                            </a>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://royaleapi.com/player/VQRQCCYG">
+                                <img src="royaleapi-logo.png" alt="RoyaleAPI" class="stats-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="role col-3"><h6>Owner</h6></div>
+                        <div class="name"><h6>KEI</h6></div>
+                        <div class="col-1">
+                            <a href="https://twitter.com/RS_Kei_CR">
+                                <img src="twitter.png"class="stats-icon"></img>
+                            </a>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://royaleapi.com/player/2CQQ9UR2C">
+                                <img src="royaleapi-logo.png" alt="RoyaleAPI" class="stats-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="role col-3"><h6>Owner</h6></div>
+                        <div class="name"><h6>TaiGuy</h6></div>
+                        <div class="col-1">
+                            <a href="https://twitter.com/CrTaiguy">
+                                <img src="twitter.png"class="stats-icon"></img>
+                            </a>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://royaleapi.com/player/2VG9PPLYR">
+                                <img src="royaleapi-logo.png" alt="RoyaleAPI" class="stats-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="member">
+                        <div class="role col-3"><h6>Director</h6></div>
+                        <div class="name"><h6>Kou.h</h6></div>
+                        <div class="col-1">
+                            <a href="https://twitter.com/kOuh34506753">
+                                <img src="twitter.png"class="stats-icon"></img>
+                            </a>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://royaleapi.com/player/2PLJGLL0">
+                                <img src="royaleapi-logo.png" alt="RoyaleAPI" class="stats-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="member">
+                        <div class="role col-3"><h6>Manager</h6></div>
+                        <div class="name"><h6>まいたけのふさ</h6></div>
+                        <div class="col-1">
+                            <a href="https://twitter.com/maitake_fusa">
+                                <img src="twitter.png"class="stats-icon"></img>
+                            </a>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://royaleapi.com/player/PP88YPL2L">
+                                <img src="royaleapi-logo.png" alt="RoyaleAPI" class="stats-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="script.js"></script>
-        <script type="text/javascript" src="about.js"></script>
-    </body>
+
+            <!-- ACHIEVEMENTS -->
+            <div class="tab-pane fade" id="achievements" role="tabpanel" aria-labelledby="achievements-tab">
+                
+                <div class="container achievement-list">
+                    <div class="row">
+                        <div class="list-team col-2" id="game"><h3>Game</h3></div>
+                        <div class="list-team col-2"><h3>Year</h3></div>
+                        <div class="list-event col-6"><h3>Event</h3></div>
+                        <div class="list-placement col-2" id="rank"><h3>Rank</h3></div>
+                    </div>
+                    <hr>
+                    
+                    <div class="accordion" id="achievement" data-lang="jp"></div>
+                </div>
+
+            </div>
+
+            <!-- CONTACT -->
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h1>お問い合わせ</h1>
+                <p>チームに関するご質問等は、以下のメールアドレスにお問い合わせください。:</p>
+                <p style="font-size: 24px"><a
+                        href="mailto:contact@RisingSunEsports.org">contact@RisingSunEsports.org</a></p>
+                <br><br>
+                <p>Twitterでのお問い合わせ:</p>
+                <p style="font-size: 24px"><a href="https://twitter.com/RisingSun_GG">@RisingSun_GG</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="achievements.js"></script>  
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+
 </html>

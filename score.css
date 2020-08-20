@@ -1,15 +1,6 @@
 .title {
     margin-top:60px;
-    margin-bottom:20px;
-}
-.overflowTest {
-    background: #111111;
-    padding: 15px;
-    width: 100%;
-    height: 500px;
-    overflow: scroll;
-    border: none;
-    margin-bottom:100px;
+    margin-bottom:30px;
 }
 
 .twitterBox{
@@ -17,44 +8,76 @@
     max-width:100%;
     max-width:500px;
 }
-.scoreboardList .row{
-    min-height:100px;
-    padding:20px;
-}
-.scoreboardList .list-Oname {
-    text-align: left;
-    padding-top:20px;
-}
 
-.scoreboardList .list-RSname {
-    text-align: right;
-    padding-top:20px;
+.scoreboardList{
+    background: #111111;
+    width: 100%;
+    height: 500px;
+    overflow-y:scroll;
+    border: none;
+    margin-bottom:100px;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    padding:30px 20px;
+    
 }
-.scoreboardList .list-RSlogo img{
-    object-fit: contain;
-    width:130%;
+.matchinfo{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
 }
-.scoreboardList .list-Ologo img{
-    object-fit: contain;
+.matchinfo div{
     width:100%;
+    text-align: left;
+    font-size:24px;
+}
+.league{
+    font-size:1em;
+}
+.time{
+    font-size:0.7em;
+    color:#bdbdbd;
+}
+.rs, .score, .opponent{
+    text-align:center;
+    padding:0;
+}
+.rs img, .opponent img{
+    object-fit: contain;
+    width:70px;
+    max-height:100px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score div{
+    min-width:90px;
+}
+.score h6{
+    font-size:30px;
 }
 hr{
     border: darkred 1px dashed;
+    width:100%;
 }
-@media only screen and (max-width: 414px){
-    .scoreboardList .list-Oname {
+@media only screen and (max-width: 1020px){
+    .title{
+        font-size:20px;
+    }
+    .matchinfo div{
         text-align: center;
+        font-size:16px;
     }
-    .scoreboardList .list-RSname {
-        text-align: center;
+    .score h6{
+        font-size:20px;
     }
-    .scoreboardList .list-RSlogo img{
-        max-width:50%;
+    .rs img, .opponent img{
+        width:50px;
     }
-    .scoreboardList .list-Ologo img{
-        max-width:50%;
-    }
-    .overflowTest {
-        width: 80%;
+    .rs h6, .opponent h6{
+        font-size:8px;
     }
 }

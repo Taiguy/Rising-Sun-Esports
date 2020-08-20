@@ -1,6 +1,6 @@
 // CLASH ROYALE ---------------------------------
 
-var crMem = [
+var apac = [
     {
         flag:"jp",
         name:"OYASSUU",
@@ -153,27 +153,58 @@ var crMem = [
     },
 ]
 
-for(i = 0; i < crMem.length; i++){
-    var flagLink = "";
-    if(crMem[i].flag == "us"){
-        flagLink = "us-flag.png";
-    }else{
-        flagLink="jp-flag.png";
-    }
-    $('.crMem').append(
-        '<div class="row">' +
-            '<div class="list-num col-2 col-sm-1"><h3>'+ (i+1) +'</h3></div>'+
-            '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+ flagLink +'"></div>'+
-            '<div class="list-name col-8 col-sm-8"><h3>'+ crMem[i].name +'</h3></div>'+
-            '<div class="list-icon col-6 col-sm-1"><a href="'+ crMem[i].twitter +'"><img src="twitter-blue.png" class="stats-icon"></img></a></div>'+
-            '<div class="list-img col-6 col-sm-1"><a href="'+ crMem[i].link +'"><img src="https://brand.royaleapi.com/logo/royaleapi-logo.png?b501a80b417cb2e8" class="stats-icon"></a></div>'+
+for(i = 0; i < apac.length; i++){
+    $('.apac').append(
+        '<div class="player">' +
+            '<div class="name"><h6>'+ (i+1) +'. '+apac[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ apac[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            '<div class="icon api"><a href="'+ apac[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
         '</div>')
 }
 
+// NA MAIN --------------------------------------------
+
+var naMain = [
+    {
+        flag:"",
+        name:"Name",
+        twitter:"https://twitter.com/###",
+        link:"https://royaleapi.com/player/###"
+    },
+]
+
+for(i = 0; i < naMain.length; i++){
+    $('.naMain').append(
+        '<div class="player">' +
+            '<div class="name"><h6>'+ (i+1) +'. '+naMain[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ naMain[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            '<div class="icon api"><a href="'+ naMain[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
+        '</div>')
+}
+
+// NA Academy --------------------------------------------
+
+var naAcademy = [
+    {
+        flag:"",
+        name:"Name",
+        twitter:"https://twitter.com/###",
+        link:"https://royaleapi.com/player/###"
+    },
+]
+
+for(i = 0; i < naAcademy.length; i++){
+    $('.naAcademy').append(
+        '<div class="player">' +
+            '<div class="name"><h6>'+ (i+1) +'. '+naAcademy[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ naAcademy[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            '<div class="icon api"><a href="'+ naAcademy[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
+        '</div>')
+}
 
 // BRAWL STARS --------------------------------------------
 
-var bsMem = [
+var kixRS = [
     {
         flag:"jp",
         name:"Lil.Dembsey",
@@ -194,20 +225,12 @@ var bsMem = [
     },
 ]
 
-for(i = 0; i < bsMem.length; i++){
-    var flagLink = "";
-    if(bsMem[i].flag == "us"){
-        flagLink = "us-flag.png";
-    }else{
-        flagLink="jp-flag.png";
-    }
-    $('.bsMem').append( 
-        '<div class="row">'+
-            '<div class="list-num col-2 col-sm-1"><h3>' + (i+1) + '</h3></div>'+
-            '<div class="list-flag col-2 col-sm-1"><img class="flag" src="'+flagLink+'"></div>'+
-            '<div class="list-name col-8 col-sm-8"><h3>'+ bsMem[i].name +'</h3></div>'+
-            '<div class="list-icon col-6 col-sm-1"><a href="'+ bsMem[i].twitter +'"><img src="twitter-blue.png" class="stats-icon"></img></a></div>'+
-        '</div>');
+for(i = 0; i < kixRS.length; i++){
+    $('.kixRS').append(
+        '<div class="player">' +
+            '<div class="name"><h6>'+ (i+1) +'. '+kixRS[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ kixRS[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+        '</div>')
 }
 
 $('a[data-toggle="tab"]').on('show.bs.tab',function(e){
@@ -217,3 +240,11 @@ var activeTab = localStorage.getItem('activeTab');
 if(activeTab){
     $('#member-tabs a[href="'+activeTab + '"]').tab('show');
 }
+
+
+
+
+
+
+
+

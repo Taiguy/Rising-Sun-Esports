@@ -1,5 +1,14 @@
 var achievements = [
     {
+        game:"CR",
+        year:"2020",
+        event:"SSG Cup",
+        rank:"Top 16",
+        descriptionEN:"SSG Cup featured 8 CRL Pro teams, along with 8 of the top semi-pro teams in Clash Royale. Rising Sun Esports was invited to the main event as one of 2 semi-pro teams. Rising Sun Esports faced off against Dignitas in the first round, but was defeated in full sets.",
+        descriptionJP:"Rising Sun Esports は8つの CRL プロチームと一緒にご招待されました。1回戦でCRLのDignitasとあたり、フルセットで惜しくも敗れてしまいました。",
+        collapseNum:"ten"
+    },
+    {
         game:"BS",
         year:"2020",
         event:"Brawl Stars Championship July 2020 Qualifier",
