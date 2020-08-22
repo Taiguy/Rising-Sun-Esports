@@ -105,12 +105,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"ひか",
-        twitter:"https://twitter.com/hikaskeleton",
-        link:"https://royaleapi.com/player/8J9LQVVYJ"
-    },
-    {
-        flag:"",
         name:"CanCam",
         twitter:"https://twitter.com/Can_7se_Cam",
         link:"https://royaleapi.com/player/2GGGGU2P2"
@@ -153,6 +147,7 @@ var apac = [
     },
 ]
 
+
 for(i = 0; i < apac.length; i++){
     $('.apac').append(
         '<div class="player">' +
@@ -167,40 +162,178 @@ for(i = 0; i < apac.length; i++){
 var naMain = [
     {
         flag:"",
-        name:"Name",
-        twitter:"https://twitter.com/###",
-        link:"https://royaleapi.com/player/###"
+        name:"Trainer Monzon",
+        twitter:"https://twitter.com/TrainerMonzon",
+        link:"https://royaleapi.com/player/9QG9RC0"
+    },
+    {
+        flag:"",
+        name:"Sandalia21",
+        twitter:"https://twitter.com/Sandalia21CR",
+        link:"https://royaleapi.com/player/8RGUL9QP"
+    },
+    {
+        flag:"",
+        name:"Hasiel-19",
+        twitter:"https://twitter.com/Hasiel19_CR",
+        link:"https://royaleapi.com/player/UGLR0P2"
+    },
+    {
+        flag:"",
+        name:"Gnodox",
+        twitter:"",
+        link:"https://royaleapi.com/player/2VRYYQU"
+    },
+    {
+        flag:"",
+        name:"Tauron_E5150",
+        twitter:"https://twitter.com/Tauron_E5150",
+        link:"https://royaleapi.com/player/2VRYYQU"
+    },
+    {
+        flag:"",
+        name:"Gebby",
+        twitter:"https://twitter.com/just_gebby",
+        link:"https://royaleapi.com/player/2UGGULY9U"
+    },
+    {
+        flag:"",
+        name:"WiNnTeR 快速",
+        twitter:"https://twitter.com/WiNnTeR1723",
+        link:"https://royaleapi.com/player/2UGC20GPY"
+    },
+    {
+        flag:"",
+        name:"Yisus菩提",
+        twitter:"https://twitter.com/Yisus02_CR",
+        link:"https://royaleapi.com/player/P82C9LYU"
+    },
+    {
+        flag:"",
+        name:"Hunter",
+        twitter:"https://twitter.com/Hunter_Clash_",
+        link:"https://royaleapi.com/player/J8R89YC8"
+    },
+    {
+        flag:"",
+        name:"Surgical J",
+        twitter:"https://twitter.com/SurgicalJ1",
+        link:"https://royaleapi.com/player/8CUG2LG9Q"
+    },
+    {
+        flag:"",
+        name:"Surgical J",
+        twitter:"https://twitter.com/SurgicalJ1",
+        link:"https://royaleapi.com/player/8CUG2LG9Q"
+    },
+    {
+        flag:"",
+        name:"Ermand",
+        twitter:"https://twitter.com/ErmandCr",
+        link:"https://royaleapi.com/player/GPRVRQJP"
+    },
+    {
+        flag:"",
+        name:"King Andy",
+        twitter:"https://twitter.com/KingAndy_CR",
+        link:"https://royaleapi.com/player/2LGRQGR9Q"
+    },
+    {
+        flag:"",
+        name:"Alaa 1.0",
+        twitter:"https://twitter.com/Alaa1_Cr",
+        link:"https://royaleapi.com/player/J2Q2YQC9"
+    },
+    {
+        flag:"",
+        name:"SCP Francisco",
+        twitter:"",
+        link:"https://royaleapi.com/player/PCJULYVQ"
+    },
+    {
+        flag:"",
+        name:"Kendaswagger ツ",
+        twitter:"https://twitter.com/KenDaSwaggerCR",
+        link:"https://royaleapi.com/player/JCG2GUYL"
+    },
+    {
+        flag:"",
+        name:"Metro",
+        twitter:"https://twitter.com/MetroCR2",
+        link:"https://royaleapi.com/player/CGPG90R0"
+    },
+    {
+        flag:"",
+        name:"Cope_04",
+        twitter:"https://twitter.com/copexzy",
+        link:"https://royaleapi.com/player/LQLV0U90"
+    },
+    {
+        flag:"",
+        name:"E1FERSU€HT",
+        twitter:"",
+        link:"https://royaleapi.com/player/22929Y2QC"
+    },
+    {
+        flag:"",
+        name:"Vucko69",
+        twitter:"https://twitter.com/Vucko69CR",
+        link:"https://royaleapi.com/player/88UUGQ9V"
+    },
+    {
+        flag:"",
+        name:"꧁☆Cilli☆꧂",
+        twitter:"https://twitter.com/Cilli_cr",
+        link:"https://royaleapi.com/player/VQPR0PV0"
+    },
+    {
+        flag:"",
+        name:"Crafter",
+        twitter:"https://twitter.com/CrafterKane",
+        link:"https://royaleapi.com/player/PJYYC28GR"
+    },
+    {
+        flag:"",
+        name:"Rainbow",
+        twitter:"https://twitter.com/_RainBowCR",
+        link:"https://royaleapi.com/player/VR90898"
     },
 ]
 
+var twitterLine = "";
+
 for(i = 0; i < naMain.length; i++){
+    twitterLine = "";
+    if(naMain[i].twitter != ""){
+        twitterLine = "<div class=\"icon twitter\"><a href=\""+ naMain[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
+    }
     $('.naMain').append(
         '<div class="player">' +
             '<div class="name"><h6>'+ (i+1) +'. '+naMain[i].name +'</h6></div>'+
-            '<div class="icon twitter"><a href="'+ naMain[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            twitterLine+
             '<div class="icon api"><a href="'+ naMain[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
         '</div>')
 }
 
-// NA Academy --------------------------------------------
+// // NA Academy --------------------------------------------
 
-var naAcademy = [
-    {
-        flag:"",
-        name:"Name",
-        twitter:"https://twitter.com/###",
-        link:"https://royaleapi.com/player/###"
-    },
-]
+// var naAcademy = [
+//     {
+//         flag:"",
+//         name:"Name",
+//         twitter:"https://twitter.com/###",
+//         link:"https://royaleapi.com/player/###"
+//     },
+// ]
 
-for(i = 0; i < naAcademy.length; i++){
-    $('.naAcademy').append(
-        '<div class="player">' +
-            '<div class="name"><h6>'+ (i+1) +'. '+naAcademy[i].name +'</h6></div>'+
-            '<div class="icon twitter"><a href="'+ naAcademy[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
-            '<div class="icon api"><a href="'+ naAcademy[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
-        '</div>')
-}
+// for(i = 0; i < naAcademy.length; i++){
+//     $('.naAcademy').append(
+//         '<div class="player">' +
+//             '<div class="name"><h6>'+ (i+1) +'. '+naAcademy[i].name +'</h6></div>'+
+//             '<div class="icon twitter"><a href="'+ naAcademy[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+//             '<div class="icon api"><a href="'+ naAcademy[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
+//         '</div>')
+// }
 
 // BRAWL STARS --------------------------------------------
 
@@ -220,16 +353,21 @@ var kixRS = [
     {
         flag:"jp",
         name:"Shanaku",
-        twitter:"https://twitter.com/ishana0",
+        twitter:"",
         
     },
 ]
 
+
 for(i = 0; i < kixRS.length; i++){
+    twitterLine = "";
+    if(kixRS[i].twitter != ""){
+        twitterLine = "<div class=\"icon twitter\"><a href=\""+ kixRS[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
+    }
     $('.kixRS').append(
         '<div class="player">' +
             '<div class="name"><h6>'+ (i+1) +'. '+kixRS[i].name +'</h6></div>'+
-            '<div class="icon twitter"><a href="'+ kixRS[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            twitterLine +
         '</div>')
 }
 

@@ -135,11 +135,20 @@ var matches = [
         oName:"Vietnam Elite"
     },
     {
+        region:"APAC",
+        date:"8/19/2020",
+        time:"18:00 JST",
+        league:"GKR Leagues",
+        score:"2 - 1",
+        oLogo:"https://lh3.googleusercontent.com/d/1cP0Rnv1BNnWao8Ed0UQ6A2JW-31dXOyE",
+        oName:"Team NZ"
+    },
+    {
         region:"NA Academy",
         date:"8/20/2020",
         time:"9:00 JST",
         league:"Instinct World League",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
         oName:"Team Liquid Academy"
     },
