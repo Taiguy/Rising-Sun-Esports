@@ -222,12 +222,6 @@ var naMain = [
     },
     {
         flag:"",
-        name:"Surgical J",
-        twitter:"https://twitter.com/SurgicalJ1",
-        link:"https://royaleapi.com/player/8CUG2LG9Q"
-    },
-    {
-        flag:"",
         name:"Ermand",
         twitter:"https://twitter.com/ErmandCr",
         link:"https://royaleapi.com/player/GPRVRQJP"
