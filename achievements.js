@@ -2,6 +2,15 @@ var achievements = [
     {
         game:"CR",
         year:"2020",
+        event:"Asia City League Season 2",
+        rank:"2nd",
+        descriptionEN:"Representing Japan, Rising Sun Esports competed in a nation-based league for APAC. 10 countries were represented, and each team played against each other. Rising Sun Esports finished the regular season with a 5-4 record, placing 3rd. For the playoffs, the top 4 teams were placed in the top bracket, while the remaining 4 teams were placed in the bottom bracket. Top bracket was a double-elimination while the bottom bracket was single-elimination. Rising Sun Esports dominated the top bracket, advancing all the way to the finals. However, Islamabad All-Stars beat Rising Sun Esports 3-2, with the match going all the way to the last game.",
+        descriptionJP:"日本代表としてAsia City Leagueに出場したRising Sun Esportsは、APAC値域の国別リーグに出場しました。合計10カ国が参加し、各チームがお互いと対戦しました。レギュラーシーズンでは5勝4敗で、3位で通過しました。プレーオフでは、上位4チームがトップブラケットに、5位から8位がボトムブラケットに割り振られました。決勝戦まで難なく進出しましたが、最後の試合で Islamabad All-Star に敗れ、準優勝となりました。",
+        collapseNum:"eleven"
+    },
+    {
+        game:"CR",
+        year:"2020",
         event:"SSG Cup",
         rank:"Top 16",
         descriptionEN:"SSG Cup featured 8 CRL Pro teams, along with 8 of the top semi-pro teams in Clash Royale. Rising Sun Esports was invited to the main event as one of 2 semi-pro teams. Rising Sun Esports faced off against Dignitas in the first round, but was defeated in full sets.",
