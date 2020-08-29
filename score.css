@@ -53,7 +53,7 @@
     align-items: center;
 }
 .score div{
-    min-width:90px;
+    min-width:100px;
 }
 .score h6{
     font-size:30px;

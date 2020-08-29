@@ -221,7 +221,7 @@ for(i = 0; i < matches.length; i++){
                 '<div><h6 class="time">'+matches[i].date+' '+matches[i].time+'</h6></div>'+
             '</div>'+
             '<div class="rs col-5 col-md-3"><img class="teamLogo" src="rs-logo1.png" alt="Rising Sun Esports"><br><h6>Rising Sun Esports '+matches[i].region+'</h6></div>'+
-            '<div class="score col-2"><h6>'+matches[i].score+'</h6></div>'+
+            '<div class="score col-2"><div class="scorespace"><h6>'+matches[i].score+'</h6></div></div>'+
             '<div class="opponent col-5 col-md-3"><img class="teamLogo" src="'+matches[i].oLogo +'"><h6>'+matches[i].oName+'</h6></div>'+
             '<hr>'+
         '</div>'
