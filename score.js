@@ -153,11 +153,11 @@ var matches = [
         oName:"Team Liquid Academy"
     },
     {
-        region:"APAC",
+        region:"NA",
         date:"8/22/2020",
         time:"8:00 JST",
         league:"Instinct World League",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/19XNA8bKyfOdVk7YeoWa3-vQEvAhFjofh",
         oName:"Vanguard Gaming"
     },
@@ -175,7 +175,7 @@ var matches = [
         date:"8/24/2020",
         time:"19:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1_chvnnbAkh1n98mrqJVu1sd9TSsSWA9P",
         oName:"Team MCA"
     },
@@ -184,9 +184,36 @@ var matches = [
         date:"8/26/2020",
         time:"20:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"1 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/10qI4nD8KsE6EoXlq3PijVqbUy_RgUe3L",
         oName:"Gulf Slayers ESports"
+    },
+    {
+        region:"APAC",
+        date:"8/27/2020",
+        time:"21:00 JST",
+        league:"Instinct World League",
+        score:"1 - 2",
+        oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
+        oName:"Team Liquid Academy"
+    },
+    {
+        region:"NA",
+        date:"8/28/2020",
+        time:"8:00 JST",
+        league:"Instinct World League",
+        score:"2 - 1",
+        oLogo:"https://lh3.googleusercontent.com/d/1aUTUoXQ-FPLpBNHoeaeWReGSSMHI09wP",
+        oName:"Dominacion Dark"
+    },
+    {
+        region:"APAC",
+        date:"8/29/2020",
+        time:"22:00 JST",
+        league:"Clash Cup",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
+        oName:"Team Liquid Academy"
     },
     {
         region:"APAC",
