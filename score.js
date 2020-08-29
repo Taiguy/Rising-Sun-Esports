@@ -166,7 +166,7 @@ var matches = [
         date:"8/23/2020",
         time:"23:00 JST",
         league:"Gem League",
-        score:" - ",
+        score:"3 - 1",
         oLogo:"https://www.gameling.net/assets/images/teams/11686/1595914621_thumb.png",
         oName:"Team Psycho"
     },
