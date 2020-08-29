@@ -6,6 +6,15 @@ var achievements = [
         rank:"2nd",
         descriptionEN:"Representing Japan, Rising Sun Esports competed in a nation-based league for APAC. 10 countries were represented, and each team played against each other. Rising Sun Esports finished the regular season with a 5-4 record, placing 3rd. For the playoffs, the top 4 teams were placed in the top bracket, while the remaining 4 teams were placed in the bottom bracket. Top bracket was a double-elimination while the bottom bracket was single-elimination. Rising Sun Esports dominated the top bracket, advancing all the way to the finals. However, Islamabad All-Stars beat Rising Sun Esports 3-2, with the match going all the way to the last game.",
         descriptionJP:"日本代表としてAsia City Leagueに出場したRising Sun Esportsは、APAC値域の国別リーグに出場しました。合計10カ国が参加し、各チームがお互いと対戦しました。レギュラーシーズンでは5勝4敗で、3位で通過しました。プレーオフでは、上位4チームがトップブラケットに、5位から8位がボトムブラケットに割り振られました。決勝戦まで難なく進出しましたが、最後の試合で Islamabad All-Star に敗れ、準優勝となりました。",
+        collapseNum:"twelve"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Neo Clash League Season 3",
+        rank:"3rd",
+        descriptionEN:"11 teams from APAC competed in the 3rd Season of Neo Clash League. Both Alpha and Beta teams dominated the regular season, finishing 1st and 2nd. In the playoffs, both teams were defeated in the semi-finals, resulting in a 3rd place finish in APAC.",
+        descriptionJP:"Neo Clash League Season 3 はアジアから11チームが参加しました。Rising Sun Esports は Alpha と Betaの2チームに分かれ、レギュラーシーズンは1位と2位でフィニッシュしました。プレイオフでは、準決勝で両チームとも敗れ、Rising Sun Esportsはアジアで3位になりました。",
         collapseNum:"eleven"
     },
     {
