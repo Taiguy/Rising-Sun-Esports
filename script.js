@@ -1,10 +1,11 @@
 //Navigation Bar
 var nav = {
     name : {
-        home: "home 1",
+        home: "",
         about: "",
         team: "",
         achievements:"",
+        shop:"",
         lang: "",
     },
     link: {
@@ -12,6 +13,7 @@ var nav = {
         about: "",
         team: "",
         achievements:"",
+        shop:"",
         rsl: "",
     }
 }
@@ -20,22 +22,26 @@ if($("nav").attr('id') == "en"){
     nav.name.about = "ABOUT";
     nav.name.team = "TEAMS";
     nav.name.achievements = "ACHIEVEMENTS";
+    nav.name.shop = "SHOP";
     nav.name.lang = "LANG";
     nav.link.home = "index.html";
     nav.link.about = "about.html";
     nav.link.team = "team.html";
     nav.link.achievements = "achievements.html";
+    nav.link.shop = "shop.html";
     nav.link.rsl = "rsl-1.html";
 }else{
     nav.name.home = "ホーム";
     nav.name.about = "チームについて";
     nav.name.team = "選手";
     nav.name.achievements = "実績";
+    nav.name.shop = "SHOP";
     nav.name.lang = "言語";
     nav.link.home = "index-jp.html";
     nav.link.about = "about-jp.html";
     nav.link.team = "team-jp.html";
     nav.link.achievements = "achievements-jp.html";
+    nav.link.shop = "shop-jp.html";
     nav.link.rsl = "rsl-1-jp.html";
 }
 $('nav').html(
@@ -66,6 +72,9 @@ $('nav').html(
             '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.rsl+'">RSL</a>'+
+            '</li>'+
+            '<li class="nav-item active">'+
+                '<a class="nav-link" href="'+nav.link.shop+'">SHOP</a>'+
             '</li>'+
             '<li class="nav-item active dropdown">'+
                 '<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">'+nav.name.lang+'</a>'+
