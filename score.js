@@ -220,7 +220,7 @@ var matches = [
         date:"8/31/2020",
         time:"21:00 JST",
         league:"GKR Leagues",
-        score:" - ",
+        score:"3 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1g4EDbHxSDFEcd3X-m4POEviiyxW2Jw71",
         oName:"ER Esports"
     },

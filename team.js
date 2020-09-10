@@ -51,21 +51,9 @@ var apac = [
     },
     {
         flag:"",
-        name:"かめ",
-        twitter:"https://twitter.com/kameballoon",
-        link:"https://royaleapi.com/player/RY9UPG2L"
-    },
-    {
-        flag:"",
         name:"wataporon",
         twitter:"https://twitter.com/wataporooon",
         link:"https://royaleapi.com/player/8G9C9ULG"
-    },
-    {
-        flag:"",
-        name:"Choco:Chip",
-        twitter:"https://twitter.com/ChocoChip_Asuka",
-        link:""
     },
     {
         flag:"",
@@ -111,12 +99,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"Gai",
-        twitter:"https://twitter.com/gaimizuame_16",
-        link:"https://royaleapi.com/player/8UYC22JG"
-    },
-    {
-        flag:"",
         name:"NERV",
         twitter:"https://twitter.com/Nerv3M_CR",
         link:"https://royaleapi.com/player/R9082R8J"
@@ -141,9 +123,15 @@ var apac = [
     },
     {
         flag:"",
-        name:"MAG",
+        name:"MAGNUM",
         twitter:"https://twitter.com/magtyan_",
         link:"https://royaleapi.com/player/2QGYJ90G"
+    },
+    {
+        flag:"",
+        name:"Starry",
+        twitter:"https://twitter.com/StarryWish_CR",
+        link:"https://royaleapi.com/player/8PJGCJUJU"
     },
 ]
 
