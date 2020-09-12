@@ -2,12 +2,6 @@
 
 var apac = [
     {
-        flag:"jp",
-        name:"OYASSUU",
-        twitter:"https://twitter.com/CRoyassuu",
-        link:"https://www.royaleapi.com/player/PCG229PC"
-    },
-    {
         flag:"",
         name:"Kou.h",
         twitter:"https://twitter.com/kOuh34506753",
@@ -75,12 +69,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"zumishie",
-        twitter:"https://twitter.com/zumishiecr",
-        link:"https://royaleapi.com/player/2U08UYCRP"
-    },
-    {
-        flag:"",
         name:"メントス",
         twitter:"https://twitter.com/mentos193",
         link:"https://royaleapi.com/player/JY228GY9"
@@ -133,6 +121,30 @@ var apac = [
         twitter:"https://twitter.com/StarryWish_CR",
         link:"https://royaleapi.com/player/8PJGCJUJU"
     },
+    {
+        flag:"",
+        name:"Yuto",
+        twitter:"https://twitter.com/yuto_cr",
+        link:"https://royaleapi.com/player/CGQ9J2G"
+    },
+    {
+        flag:"",
+        name:"こむこむ",
+        twitter:"https://twitter.com/komukomu_CR",
+        link:"https://royaleapi.com/player/2Y0QL8VVJ"
+    },
+    {
+        flag:"",
+        name:"ピロったん",
+        twitter:"https://twitter.com/piroooCR",
+        link:"https://royaleapi.com/player/2P0C8YLPL"
+    },
+    {
+        flag:"",
+        name:"Naru",
+        twitter:"https://twitter.com/Naru_valo",
+        link:"https://royaleapi.com/player/89VC8GQR2"
+    },
 ]
 
 
@@ -150,12 +162,6 @@ for(i = 0; i < apac.length; i++){
 var naMain = [
     {
         flag:"",
-        name:"Trainer Monzon",
-        twitter:"https://twitter.com/TrainerMonzon",
-        link:"https://royaleapi.com/player/9QG9RC0"
-    },
-    {
-        flag:"",
         name:"Sandalia21",
         twitter:"https://twitter.com/Sandalia21CR",
         link:"https://royaleapi.com/player/8RGUL9QP"
@@ -165,12 +171,6 @@ var naMain = [
         name:"Hasiel-19",
         twitter:"https://twitter.com/Hasiel19_CR",
         link:"https://royaleapi.com/player/UGLR0P2"
-    },
-    {
-        flag:"",
-        name:"Gnodox",
-        twitter:"",
-        link:"https://royaleapi.com/player/2VRYYQU"
     },
     {
         flag:"",
@@ -195,18 +195,6 @@ var naMain = [
         name:"Yisus菩提",
         twitter:"https://twitter.com/Yisus02_CR",
         link:"https://royaleapi.com/player/P82C9LYU"
-    },
-    {
-        flag:"",
-        name:"Hunter",
-        twitter:"https://twitter.com/Hunter_Clash_",
-        link:"https://royaleapi.com/player/J8R89YC8"
-    },
-    {
-        flag:"",
-        name:"Surgical J",
-        twitter:"https://twitter.com/SurgicalJ1",
-        link:"https://royaleapi.com/player/8CUG2LG9Q"
     },
     {
         flag:"",
@@ -258,12 +246,6 @@ var naMain = [
     },
     {
         flag:"",
-        name:"Vucko69",
-        twitter:"https://twitter.com/Vucko69CR",
-        link:"https://royaleapi.com/player/88UUGQ9V"
-    },
-    {
-        flag:"",
         name:"꧁☆Cilli☆꧂",
         twitter:"https://twitter.com/Cilli_cr",
         link:"https://royaleapi.com/player/VQPR0PV0"
@@ -279,6 +261,24 @@ var naMain = [
         name:"Rainbow",
         twitter:"https://twitter.com/_RainBowCR",
         link:"https://royaleapi.com/player/VR90898"
+    },
+    {
+        flag:"",
+        name:"ChrisKing",
+        twitter:"https://twitter.com/itsmeChris50",
+        link:"https://royaleapi.com/player/9RJ2Q99YR"
+    },
+    {
+        flag:"",
+        name:"DarkLord",
+        twitter:"https://twitter.com/MuskyyLover",
+        link:"https://royaleapi.com/player/290CVUC9"
+    },
+    {
+        flag:"",
+        name:"Seveta",
+        twitter:"https://twitter.com/SevetarC",
+        link:"https://royaleapi.com/player/9YJ9QQ02"
     },
 ]
 

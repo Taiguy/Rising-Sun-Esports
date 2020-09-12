@@ -1,228 +1,39 @@
 var matches = [
     {
         region:"APAC",
-        date:"8/3/2020",
-        time:"20:00 JST",
-        league:"Asia City League",
-        score:"1 - 2",
-        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/jakarta-bandits.png?t=2d9e93c62ac734ed9485cb360caeb598b5f02935",
-        oName:"Jakarta Bandits"
-    },
-    {
-        region:"APAC",
-        date:"8/4/2020",
-        time:"23:00 JST",
-        league:"GKR Leagues",
-        score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1rkzypLL4a6mLRETdGl4_OrL_1fxScsvn",
-        oName:"Clash2IT APAC"
-    },
-    {
-        region:"APAC",
-        date:"8/6/2020",
-        time:"23:00 JST",
-        league:"GKR Leagues",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1PhWr4blgFoRaOeQ9EbDwDvBQCAYj7Rvi",
-        oName:"ISW Team"
-    },
-    {
-        region:"APAC",
-        date:"8/8/2020",
-        time:"6:00 JST",
-        league:"SSG Cup",
-        score:"1 - 2",
-        oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
-        oName:"Dignitas"
-    },
-    {
-        region:"APAC",
-        date:"8/8/2020",
-        time:"22:00 JST",
+        date:"9/6/2020",
+        time:"23:30 JST",
         league:"Gem League",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1mEj9xsqoHuSoRlmdtWTKsc3hRcYbVVxF",
-        oName:"EGS Phoenix"
+        score:"0 - 3",
+        oLogo:"https://lh3.googleusercontent.com/d/1Fh86taikvErn_LDEdfHhAWYkwc2MsC0j",
+        oName:"Team Legion"
     },
     {
         region:"APAC",
-        date:"8/9/2020",
-        time:"11:00 JST",
-        league:"Gem League",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/13buDXG5y1lQWs4B2x7VOT3AO7jnZAKGJ",
-        oName:"ERN NA"
-    },
-    {
-        region:"APAC",
-        date:"8/11/2020",
-        time:"20:00 JST",
-        league:"Asia City League",
-        score:"3 - 0",
-        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/newdelhi-babies.png?t=caf07fca3d78659c73bc991b81a584bc06c53109",
-        oName:"New Delhi Babies"
-    },
-    {
-        region:"APAC",
-        date:"8/12/2020",
-        time:"3:00 JST",
-        league:"SSG Cup",
-        score:"1 - 2",
-        oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
-        oName:"Dignitas"
-    },
-    {
-        region:"APAC",
-        date:"8/11/2020",
-        time:"23:00 JST",
-        league:"GKR Leagues",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1fgjtsMcjJUjQ6NFqJL_H3xuJKY11TA2W",
-        oName:"AUN Gaming"
-    },
-    {
-        region:"NA Academy",
-        date:"8/12/2020",
-        time:"17:00 PST",
-        league:"Instinct World League",
-        score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1xe2yyV8ttOT3lKh7Zjwrv7DlAqiikjSG",
-        oName:"Instinct NA"
-    },
-    {
-        region:"APAC",
-        date:"8/13/2020",
-        time:"22:00 JST",
-        league:"GKR Leagues",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/1K1nPTYNm1a-fg-xBhtNcHunwwWV8w2_n",
-        oName:"KIX Academy APAC"
-    },
-    {
-        region:"NA",
-        date:"8/14/2020",
-        time:"22:00 JST",
-        league:"Instinct World League",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1daNgPMFQRDAuBmJIO4USucgAnyg4tmXo",
-        oName:"ACE1"
-    },
-    {
-        region:"APAC",
-        date:"8/16/2020",
-        time:"13:00 JST",
-        league:"Gem League",
-        score:"1 - 3",
-        oLogo:"https://lh3.googleusercontent.com/d/1xmysNU9PO49-ii0_GLrcm6_yqIwhLMxq",
-        oName:"Team Samurai"
-    },
-    {
-        region:"APAC",
-        date:"8/18/2020",
-        time:"22:00 JST",
-        league:"Asia City League",
-        score:"3 - 2",
-        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/seoul-celestials.png?t=32193704acb2d1a991f1ccde231d4cb138f368ed",
-        oName:"Seoul Celestials"
-    },
-    {
-        region:"APAC",
-        date:"8/18/2020",
-        time:"22:00 JST",
-        league:"GKR Leagues",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1LXt9Ht1Jxx2T3Q8B9y2qBgTHeSFS2t53",
-        oName:"Vietnam Elite"
-    },
-    {
-        region:"APAC",
-        date:"8/19/2020",
-        time:"18:00 JST",
-        league:"GKR Leagues",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1cP0Rnv1BNnWao8Ed0UQ6A2JW-31dXOyE",
-        oName:"Team NZ"
-    },
-    {
-        region:"NA Academy",
-        date:"8/20/2020",
-        time:"9:00 JST",
-        league:"Instinct World League",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
-        oName:"Team Liquid Academy"
-    },
-    {
-        region:"NA",
-        date:"8/22/2020",
-        time:"8:00 JST",
-        league:"Instinct World League",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/19XNA8bKyfOdVk7YeoWa3-vQEvAhFjofh",
-        oName:"Vanguard Gaming"
-    },
-    {
-        region:"APAC",
-        date:"8/23/2020",
-        time:"23:00 JST",
-        league:"Gem League",
-        score:"3 - 1",
-        oLogo:"https://www.gameling.net/assets/images/teams/11686/1595914621_thumb.png",
-        oName:"Team Psycho"
-    },
-    {
-        region:"APAC",
-        date:"8/24/2020",
+        date:"9/7/2020",
         time:"19:00 JST",
         league:"GKR Leagues",
         score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1_chvnnbAkh1n98mrqJVu1sd9TSsSWA9P",
-        oName:"Team MCA"
+        oLogo:"https://lh3.googleusercontent.com/d/1bpev1IR3BJtIZkaACiEVw--mPocirNa1",
+        oName:"Bloody Bride"
     },
     {
         region:"APAC",
-        date:"8/26/2020",
-        time:"20:00 JST",
-        league:"GKR Leagues",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/10qI4nD8KsE6EoXlq3PijVqbUy_RgUe3L",
-        oName:"Gulf Slayers ESports"
-    },
-    {
-        region:"APAC",
-        date:"8/27/2020",
+        date:"9/9/2020",
         time:"21:00 JST",
-        league:"Instinct World League",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
-        oName:"Team Liquid Academy"
-    },
-    {
-        region:"NA",
-        date:"8/28/2020",
-        time:"8:00 JST",
-        league:"Instinct World League",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1aUTUoXQ-FPLpBNHoeaeWReGSSMHI09wP",
-        oName:"Dominacion Dark"
+        league:"GKR Leagues",
+        score:"0 - 3",
+        oLogo:"https://lh3.googleusercontent.com/d/1GI3wXiPjKl472fCBudnQQPom92q2sHxR",
+        oName:"Blood Bath"
     },
     {
         region:"APAC",
-        date:"8/29/2020",
-        time:"22:00 JST",
-        league:"Clash Cup",
+        date:"9/13/2020",
+        time:"9:00 JST",
+        league:"Clash Royale Cup",
         score:" - ",
-        oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
-        oName:"Team Liquid Academy"
-    },
-    {
-        region:"APAC",
-        date:"8/31/2020",
-        time:"21:00 JST",
-        league:"GKR Leagues",
-        score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1g4EDbHxSDFEcd3X-m4POEviiyxW2Jw71",
-        oName:"ER Esports"
+        oLogo:"https://lh3.googleusercontent.com/d/1fyw1lUMjyZIcpNEgr-VifBcwlhjDZkYX",
+        oName:"Undefined"
     },
 ]
 
@@ -376,4 +187,233 @@ for(i = 0; i < matches.length; i++){
 //     score:"2 - 1",
 //     oLogo:"https://lh3.googleusercontent.com/d/13buDXG5y1lQWs4B2x7VOT3AO7jnZAKGJ",
 //     oName:"ERN APAC"
+// },
+
+
+
+// ================ AUGUST MATCHES ====================== //
+// {
+//     region:"APAC",
+//     date:"8/3/2020",
+//     time:"20:00 JST",
+//     league:"Asia City League",
+//     score:"1 - 2",
+//     oLogo:"https://cdn.royaleapi.com/static/img/team/logo/jakarta-bandits.png?t=2d9e93c62ac734ed9485cb360caeb598b5f02935",
+//     oName:"Jakarta Bandits"
+// },
+// {
+//     region:"APAC",
+//     date:"8/4/2020",
+//     time:"23:00 JST",
+//     league:"GKR Leagues",
+//     score:"3 - 0",
+//     oLogo:"https://lh3.googleusercontent.com/d/1rkzypLL4a6mLRETdGl4_OrL_1fxScsvn",
+//     oName:"Clash2IT APAC"
+// },
+// {
+//     region:"APAC",
+//     date:"8/6/2020",
+//     time:"23:00 JST",
+//     league:"GKR Leagues",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1PhWr4blgFoRaOeQ9EbDwDvBQCAYj7Rvi",
+//     oName:"ISW Team"
+// },
+// {
+//     region:"APAC",
+//     date:"8/8/2020",
+//     time:"6:00 JST",
+//     league:"SSG Cup",
+//     score:"1 - 2",
+//     oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
+//     oName:"Dignitas"
+// },
+// {
+//     region:"APAC",
+//     date:"8/8/2020",
+//     time:"22:00 JST",
+//     league:"Gem League",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1mEj9xsqoHuSoRlmdtWTKsc3hRcYbVVxF",
+//     oName:"EGS Phoenix"
+// },
+// {
+//     region:"APAC",
+//     date:"8/9/2020",
+//     time:"11:00 JST",
+//     league:"Gem League",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/13buDXG5y1lQWs4B2x7VOT3AO7jnZAKGJ",
+//     oName:"ERN NA"
+// },
+// {
+//     region:"APAC",
+//     date:"8/11/2020",
+//     time:"20:00 JST",
+//     league:"Asia City League",
+//     score:"3 - 0",
+//     oLogo:"https://cdn.royaleapi.com/static/img/team/logo/newdelhi-babies.png?t=caf07fca3d78659c73bc991b81a584bc06c53109",
+//     oName:"New Delhi Babies"
+// },
+// {
+//     region:"APAC",
+//     date:"8/12/2020",
+//     time:"3:00 JST",
+//     league:"SSG Cup",
+//     score:"1 - 2",
+//     oLogo:"http://cdn.esportsify.com/teamdignitasv2/images/logos/main-logov2.png",
+//     oName:"Dignitas"
+// },
+// {
+//     region:"APAC",
+//     date:"8/11/2020",
+//     time:"23:00 JST",
+//     league:"GKR Leagues",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1fgjtsMcjJUjQ6NFqJL_H3xuJKY11TA2W",
+//     oName:"AUN Gaming"
+// },
+// {
+//     region:"NA Academy",
+//     date:"8/12/2020",
+//     time:"17:00 PST",
+//     league:"Instinct World League",
+//     score:"3 - 0",
+//     oLogo:"https://lh3.googleusercontent.com/d/1xe2yyV8ttOT3lKh7Zjwrv7DlAqiikjSG",
+//     oName:"Instinct NA"
+// },
+// {
+//     region:"APAC",
+//     date:"8/13/2020",
+//     time:"22:00 JST",
+//     league:"GKR Leagues",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/1K1nPTYNm1a-fg-xBhtNcHunwwWV8w2_n",
+//     oName:"KIX Academy APAC"
+// },
+// {
+//     region:"NA",
+//     date:"8/14/2020",
+//     time:"22:00 JST",
+//     league:"Instinct World League",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1daNgPMFQRDAuBmJIO4USucgAnyg4tmXo",
+//     oName:"ACE1"
+// },
+// {
+//     region:"APAC",
+//     date:"8/16/2020",
+//     time:"13:00 JST",
+//     league:"Gem League",
+//     score:"1 - 3",
+//     oLogo:"https://lh3.googleusercontent.com/d/1xmysNU9PO49-ii0_GLrcm6_yqIwhLMxq",
+//     oName:"Team Samurai"
+// },
+// {
+//     region:"APAC",
+//     date:"8/18/2020",
+//     time:"22:00 JST",
+//     league:"Asia City League",
+//     score:"3 - 2",
+//     oLogo:"https://cdn.royaleapi.com/static/img/team/logo/seoul-celestials.png?t=32193704acb2d1a991f1ccde231d4cb138f368ed",
+//     oName:"Seoul Celestials"
+// },
+// {
+//     region:"APAC",
+//     date:"8/18/2020",
+//     time:"22:00 JST",
+//     league:"GKR Leagues",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1LXt9Ht1Jxx2T3Q8B9y2qBgTHeSFS2t53",
+//     oName:"Vietnam Elite"
+// },
+// {
+//     region:"APAC",
+//     date:"8/19/2020",
+//     time:"18:00 JST",
+//     league:"GKR Leagues",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1cP0Rnv1BNnWao8Ed0UQ6A2JW-31dXOyE",
+//     oName:"Team NZ"
+// },
+// {
+//     region:"NA Academy",
+//     date:"8/20/2020",
+//     time:"9:00 JST",
+//     league:"Instinct World League",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
+//     oName:"Team Liquid Academy"
+// },
+// {
+//     region:"NA",
+//     date:"8/22/2020",
+//     time:"8:00 JST",
+//     league:"Instinct World League",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/19XNA8bKyfOdVk7YeoWa3-vQEvAhFjofh",
+//     oName:"Vanguard Gaming"
+// },
+// {
+//     region:"APAC",
+//     date:"8/23/2020",
+//     time:"23:00 JST",
+//     league:"Gem League",
+//     score:"3 - 1",
+//     oLogo:"https://www.gameling.net/assets/images/teams/11686/1595914621_thumb.png",
+//     oName:"Team Psycho"
+// },
+// {
+//     region:"APAC",
+//     date:"8/24/2020",
+//     time:"19:00 JST",
+//     league:"GKR Leagues",
+//     score:"3 - 0",
+//     oLogo:"https://lh3.googleusercontent.com/d/1_chvnnbAkh1n98mrqJVu1sd9TSsSWA9P",
+//     oName:"Team MCA"
+// },
+// {
+//     region:"APAC",
+//     date:"8/26/2020",
+//     time:"20:00 JST",
+//     league:"GKR Leagues",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/10qI4nD8KsE6EoXlq3PijVqbUy_RgUe3L",
+//     oName:"Gulf Slayers ESports"
+// },
+// {
+//     region:"APAC",
+//     date:"8/27/2020",
+//     time:"21:00 JST",
+//     league:"Instinct World League",
+//     score:"1 - 2",
+//     oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
+//     oName:"Team Liquid Academy"
+// },
+// {
+//     region:"NA",
+//     date:"8/28/2020",
+//     time:"8:00 JST",
+//     league:"Instinct World League",
+//     score:"2 - 1",
+//     oLogo:"https://lh3.googleusercontent.com/d/1aUTUoXQ-FPLpBNHoeaeWReGSSMHI09wP",
+//     oName:"Dominacion Dark"
+// },
+// {
+//     region:"APAC",
+//     date:"8/29/2020",
+//     time:"22:00 JST",
+//     league:"Clash Cup",
+//     score:"1 - 3",
+//     oLogo:"https://lh3.googleusercontent.com/d/1OhUYyV3CMsFugUs5ctnKlSWKB4Tr47c8",
+//     oName:"Team Liquid Academy"
+// },
+// {
+//     region:"APAC",
+//     date:"8/31/2020",
+//     time:"21:00 JST",
+//     league:"GKR Leagues",
+//     score:"3 - 0",
+//     oLogo:"https://lh3.googleusercontent.com/d/1g4EDbHxSDFEcd3X-m4POEviiyxW2Jw71",
+//     oName:"ER Esports"
 // },

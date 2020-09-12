@@ -2,6 +2,33 @@ var achievements = [
     {
         game:"CR",
         year:"2020",
+        event:"GKR Leagues Season 4",
+        rank:"Top 4",
+        descriptionEN:"",
+        descriptionJP:"",
+        collapseNum:"fifteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Gem League Season 2",
+        rank:"Top 8",
+        descriptionEN:"Rising Sun Esports APAC participated in Gem League Season 2 as one of the invited pre-qualified teams. In the group stage, we were placed into Group D, along with ERN NA, Vanguard Gaming and EGS Phoenix. Rising Sun Esports placed second, through tie-breaker rules against Vanguard Gaming, to advance to the double-elimination playoff bracket. In the first round of the top bracket, the team fell to Team Samurai 3-1 and we forced to the lower bracket. In the lower bracket, the team defeated Team Psycho 3-1 and Sace on Tour 3-1, to make it to the quarterfinals of the lower bracket but fell short to Team Legione 0-3, forcing the team out of contention.",
+        descriptionJP:"Rising Sun Esports APAC はGem League Season 2に招待チームとして本戦から参加しました。グループステージではDグループでERN NA、Vanguard Gaming、EGS Phoenixと試合をし、2位通過でプレイオフに進出しました。1回戦ではTeam Samuraiに3-1で敗北し、敗者復活ブラケットでTeam Psychoと Sace on Tourに勝利し、敗者ブラケットのベスト4まで進出しましたが Team Legioneに0-3で破れGem League を敗退しました。",
+        collapseNum:"fourteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Clash Cup Season 5",
+        rank:"Top 4",
+        descriptionEN:"Both Rising Sun Esports NA and APAC participated in Clash Cup Season 5. 34 teams were split into 4 groups, where NA was placed into Group A and APAC was placed into Group D. Unlike other leagues, Clash Cup had a point-based ranking system. APAC team finished at the top of their group scoring 83 points. 78 points by the NA team was enough to secure them the 3rd place spot in their group and both teams advanced to the playoffs. Both teams unfortunately lost and were eliminated from playoffs in the first round, going up against Team Liquid Academy APAC (for APAC team) and Undefined (for NA team).",
+        descriptionJP:"",
+        collapseNum:"thirteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
         event:"Asia City League Season 2",
         rank:"2nd",
         descriptionEN:"Representing Japan, Rising Sun Esports competed in a nation-based league for APAC. 10 countries were represented, and each team played against each other. Rising Sun Esports finished the regular season with a 5-4 record, placing 3rd. For the playoffs, the top 4 teams were placed in the top bracket, while the remaining 4 teams were placed in the bottom bracket. Top bracket was a double-elimination while the bottom bracket was single-elimination. Rising Sun Esports dominated the top bracket, advancing all the way to the finals. However, Islamabad All-Stars beat Rising Sun Esports 3-2, with the match going all the way to the last game.",
