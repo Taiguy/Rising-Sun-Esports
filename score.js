@@ -31,9 +31,153 @@ var matches = [
         date:"9/13/2020",
         time:"9:00 JST",
         league:"Clash Royale Cup",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1fyw1lUMjyZIcpNEgr-VifBcwlhjDZkYX",
         oName:"Undefined"
+    },
+    {
+        region:"APAC Beta",
+        date:"9/18/2020",
+        time:"23:00 JST",
+        league:"Liquid Clash Cup",
+        score:"2 - 1",
+        oLogo:"https://lh3.googleusercontent.com/d/1k80CYcsC8dijDmmMosLmfsrdSKYfk8Qg",
+        oName:"Bait Clashers"
+    },
+    {
+        region:"NA",
+        date:"9/19/2020",
+        time:"11:00 JST",
+        league:"Liquid Clash Cup",
+        score:"0 - 2",
+        oLogo:"https://lh3.googleusercontent.com/d/10cVK3UireOiWOb0uA0rPh6Qw-0eZRnhB",
+        oName:"Team Samurai"
+    },
+    {
+        region:"APAC Alpha",
+        date:"9/19/2020",
+        time:"20:30 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1mdFXGJOecNp1Ff0SyCqkBUYtiZQvDWiS",
+        oName:"Volcano Academy"
+    },
+    {
+        region:"APAC",
+        date:"9/20/2020",
+        time:"21:00 JST",
+        league:"World Royale League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/islamabad-allstar.png?t=464034903c4ad4176910eccf1ed48efee4e9ad1d",
+        oName:"Pakistan"
+    },
+    {
+        region:"APAC Alpha",
+        date:"9/21/2020",
+        time:"21:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1CKXchiEUUe_8_HuRbZ--rM92v3e_hcl5",
+        oName:"Manado Reborn"
+    },
+    {
+        region:"APAC Beta",
+        date:"9/22/2020",
+        time:"21:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1iiInx9oE3QvVkJxsmhW8r-J1kLYFNjN0",
+        oName:"Ordinary Royale"
+    },
+    {
+        region:"NA Academy",
+        date:"9/21/2020",
+        time:"9:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/18ukBM68lpieZeYTKEJX-m_R9CiZwRWHa",
+        oName:"Team Liquid Academy NA"
+    },
+    {
+        region:"APAC",
+        date:"9/21/2020",
+        time:"22:30 JST",
+        league:"Clash Royale Cup",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1f5aJA4q7Zhq7czVUhLwuRyXl0ypiOwBK",
+        oName:"TG"
+    },
+    {
+        region:"APAC Alpha",
+        date:"9/22/2020",
+        time:"22:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1KxDWq6JNvUq9ajU7gYI9SUEv0U2vWl0S",
+        oName:"Imuers"
+    },
+    {
+        region:"NA",
+        date:"9/25/2020",
+        time:"12:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1pb2hUdcAMLt1B2hzmDXq_et5s-FKC_iW",
+        oName:"Delta Stars"
+    },
+    {
+        region:"APAC Beta",
+        date:"9/25/2020",
+        time:"22:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/18ukBM68lpieZeYTKEJX-m_R9CiZwRWHa",
+        oName:"Team Liquid Academy APAC Yang"
+    },
+    {
+        region:"APAC Alpha",
+        date:"9/25/2020",
+        time:"23:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1k80CYcsC8dijDmmMosLmfsrdSKYfk8Qg",
+        oName:"Bait Clashers"
+    },
+    {
+        region:"APAC",
+        date:"9/26/2020",
+        time:"12:00 JST",
+        league:"Vertex Cup",
+        score:" - ",
+        oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/BR-flag.jpg",
+        oName:"Brazil"
+    },
+    {
+        region:"APAC",
+        date:"9/26/2020",
+        time:"20:00 JST",
+        league:"World Royale League",
+        score:" - ",
+        oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/UP-flag.jpg",
+        oName:"Ukraine"
+    },
+    {
+        region:"APAC Beta",
+        date:"9/27/2020",
+        time:"23:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://lh3.googleusercontent.com/d/1KxDWq6JNvUq9ajU7gYI9SUEv0U2vWl0S",
+        oName:"Imeurs"
+    },
+    {
+        region:"NA",
+        date:"9/30/2020",
+        time:"12:00 JST",
+        league:"Liquid Clash League",
+        score:" - ",
+        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/zerozone.png?t=58f2dbe4fc50ae6268b30b964497ede839d3a677",
+        oName:"ZeroZone LATAM 2"
     },
 ]
 
