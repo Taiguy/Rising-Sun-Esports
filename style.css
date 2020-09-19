@@ -66,6 +66,9 @@ nav li{
     #banner h1{
         font-size:30px;
     }
+    .nav-item{
+        margin:0;
+    }
 }
 
 /* Footer */
