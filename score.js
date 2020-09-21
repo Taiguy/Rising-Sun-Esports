@@ -58,7 +58,7 @@ var matches = [
         date:"9/19/2020",
         time:"20:30 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1mdFXGJOecNp1Ff0SyCqkBUYtiZQvDWiS",
         oName:"Volcano Academy"
     },
@@ -67,7 +67,7 @@ var matches = [
         date:"9/20/2020",
         time:"21:00 JST",
         league:"World Royale League",
-        score:" - ",
+        score:"4 - 2",
         oLogo:"https://cdn.royaleapi.com/static/img/team/logo/islamabad-allstar.png?t=464034903c4ad4176910eccf1ed48efee4e9ad1d",
         oName:"Pakistan"
     },
