@@ -4,8 +4,8 @@ var achievements = [
         year:"2020",
         event:"GKR Leagues Season 4",
         rank:"Top 4",
-        descriptionEN:"",
-        descriptionJP:"",
+        descriptionEN:"Rising Sun Esports APAC was one of the 24 teams that was selected to participate in the 4th Edidtion of GKR Leagues. We dominated the regular season, ending with a 20-3 record and securing 1st place. However, after facing Bloodbath in the second round of playoffs, we were eliminated from the competition.",
+        descriptionJP:"Rising Sun Esports APACは第4回GKRリーグに参加出来る24チームの１つに選ばれました。私達はレギュラーシーズンを20勝3敗という圧倒的な成績で潜り抜けましたが、プレイオフの第2ラウンドでBloodBathに惨敗し大会を終えました。",
         collapseNum:"fifteen"
     },
     {
@@ -23,7 +23,7 @@ var achievements = [
         event:"Clash Cup Season 5",
         rank:"Top 4",
         descriptionEN:"Both Rising Sun Esports NA and APAC participated in Clash Cup Season 5. 34 teams were split into 4 groups, where NA was placed into Group A and APAC was placed into Group D. Unlike other leagues, Clash Cup had a point-based ranking system. APAC team finished at the top of their group scoring 83 points. 78 points by the NA team was enough to secure them the 3rd place spot in their group and both teams advanced to the playoffs. Both teams unfortunately lost and were eliminated from playoffs in the first round, going up against Team Liquid Academy APAC (for APAC team) and Undefined (for NA team).",
-        descriptionJP:"",
+        descriptionJP:"Rising Sun Esports NA、APACの両チームはClash Cupシーズン5に出場しました。34チームは4つのグループに分配されNAチームはグループA、APACチームはグループに配置されました。他のリーグと違い、Clash Cupではポイント制でチームの順位付けを定めてました。APACチームはそのグループで首位となる83点を記録し、別グループのNAは78点獲得しグループ内3位と両チームがプレイオフの出場を決めました。しかし、APACチームはTeam Liquid Academy APACに、NAチームはUndefinedに敗れて両チームプレイオフ一回で大会を終えました。",
         collapseNum:"thirteen"
     },
     {
