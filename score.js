@@ -139,7 +139,7 @@ var matches = [
         date:"9/25/2020",
         time:"9:00 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"2 - 1",
         oLogo:"https://lh3.googleusercontent.com/d/1pb2hUdcAMLt1B2hzmDXq_et5s-FKC_iW",
         oName:"Delta Stars"
     },
@@ -148,7 +148,7 @@ var matches = [
         date:"9/25/2020",
         time:"23:00 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"0 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1k80CYcsC8dijDmmMosLmfsrdSKYfk8Qg",
         oName:"Bait Clashers"
     },
@@ -157,7 +157,7 @@ var matches = [
         date:"9/26/2020",
         time:"12:00 JST",
         league:"Vertex Cup",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/BR-flag.jpg",
         oName:"Brazil"
     },
@@ -166,7 +166,7 @@ var matches = [
         date:"9/26/2020",
         time:"20:00 JST",
         league:"World Royale League",
-        score:" - ",
+        score:"0 - 4",
         oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/UP-flag.jpg",
         oName:"Ukraine"
     },
@@ -175,7 +175,7 @@ var matches = [
         date:"9/26/2020",
         time:"22:00 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"0 - 2",
         oLogo:"https://lh3.googleusercontent.com/d/1bVkusUecsDbRmAxqaEM6RasBo406vGtm",
         oName:"KIX JP"
     },
@@ -184,7 +184,7 @@ var matches = [
         date:"9/27/2020",
         time:"23:00 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1KxDWq6JNvUq9ajU7gYI9SUEv0U2vWl0S",
         oName:"Imeurs"
     },
@@ -193,18 +193,9 @@ var matches = [
         date:"9/28/2020",
         time:"22:00 JST",
         league:"Liquid Clash League",
-        score:" - ",
+        score:"2 - 0",
         oLogo:"https://lh3.googleusercontent.com/d/1iiInx9oE3QvVkJxsmhW8r-J1kLYFNjN0",
         oName:"Ordinary Royale"
-    },
-    {
-        region:"NA",
-        date:"9/30/2020",
-        time:"12:00 JST",
-        league:"Liquid Clash League",
-        score:" - ",
-        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/zerozone.png?t=58f2dbe4fc50ae6268b30b964497ede839d3a677",
-        oName:"ZeroZone LATAM 2"
     },
 ]
 
