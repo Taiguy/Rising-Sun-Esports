@@ -1,3 +1,4 @@
+
 .title {
     margin-top:60px;
     margin-bottom:30px;
@@ -8,15 +9,15 @@
     max-width:100%;
     max-width:500px;
 }
-.overflow{
+/* .overflow{
     background: #111111;
     margin-bottom:100px;
     overflow-y:scroll;
-}
+} */
 
 .scoreboardList{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     border: none;
     border-radius:20px;
     padding:30px 20px;

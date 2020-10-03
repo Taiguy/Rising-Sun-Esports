@@ -9,12 +9,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"Minadora",
-        twitter:"http://twitter.com/pando_ra11",
-        link:"https://www.royaleapi.com/player/88RUCCQLC"
-    },
-    {
-        flag:"",
         name:"グッドナイト下川",
         twitter:"https://twitter.com/Goodnight4093",
         link:"https://www.royaleapi.com/player/2GU8GL80C"
@@ -144,6 +138,12 @@ var apac = [
         name:"Naru",
         twitter:"https://twitter.com/Naru_valo",
         link:"https://royaleapi.com/player/89VC8GQR2"
+    },
+    {
+        flag:"",
+        name:"ひまわり",
+        twitter:"https://twitter.com/HimawariCR",
+        link:"https://royaleapi.com/player/2PQ20R02Y"
     },
 ]
 

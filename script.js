@@ -23,6 +23,7 @@ if($("nav").attr('id') == "en"){
     nav.name.home = "HOME";
     nav.name.about = "ABOUT";
     nav.name.team = "TEAMS";
+    nav.name.match = "MATCHES"
     nav.name.achievements = "ACHIEVEMENTS";
     nav.name.shop = "SHOP";
     nav.name.apply = "APPLY";
@@ -31,6 +32,7 @@ if($("nav").attr('id') == "en"){
     nav.link.home = "index.html";
     nav.link.about = "about.html";
     nav.link.team = "team.html";
+    nav.link.match = "match.html"
     nav.link.achievements = "achievements.html";
     nav.link.shop = "shop.html";
     nav.link.rsl = "rsl-1.html";
@@ -39,6 +41,7 @@ if($("nav").attr('id') == "en"){
     nav.name.home = "ホーム";
     nav.name.about = "チームについて";
     nav.name.team = "選手";
+    nav.name.match = "試合"
     nav.name.achievements = "実績";
     nav.name.shop = "ショップ";
     nav.name.apply = "応募"
@@ -47,6 +50,7 @@ if($("nav").attr('id') == "en"){
     nav.link.home = "index-jp.html";
     nav.link.about = "about-jp.html";
     nav.link.team = "team-jp.html";
+    nav.link.match = "match.html"
     nav.link.achievements = "achievements-jp.html";
     nav.link.shop = "shop-jp.html";
     nav.link.rsl = "rsl-1-jp.html";
@@ -77,6 +81,9 @@ $('nav').html(
             '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.team+'">'+nav.name.team+'</a>'+
+            '</li>'+
+            '<li class="nav-item active">'+
+                '<a class="nav-link" href="'+nav.link.match+'">'+nav.name.match+'</a>'+
             '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.rsl+'">RSL</a>'+

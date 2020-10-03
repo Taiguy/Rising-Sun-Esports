@@ -4,8 +4,8 @@ var achievements = [
         year:"2020",
         event:"GKR Leagues Season 4",
         rank:"Top 4",
-        descriptionEN:"",
-        descriptionJP:"",
+        descriptionEN:"Rising Sun Esports APAC was one of the 24 teams that was selected to participate in the 4th Edidtion of GKR Leagues. We dominated the regular season, ending with a 20-3 record and securing 1st place. However, after facing Bloodbath in the second round of playoffs, we were eliminated from the competition.",
+        descriptionJP:"Rising Sun Esports APACは第4回GKRリーグに参加出来る24チームの１つに選ばれました。私達はレギュラーシーズンを20勝3敗という圧倒的な成績で潜り抜けましたが、プレイオフの第2ラウンドでBloodBathに惨敗し大会を終えました。",
         collapseNum:"fifteen"
     },
     {
