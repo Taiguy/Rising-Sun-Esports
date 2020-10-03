@@ -23,7 +23,7 @@ var achievements = [
         event:"Clash Cup Season 5",
         rank:"Top 4",
         descriptionEN:"Both Rising Sun Esports NA and APAC participated in Clash Cup Season 5. 34 teams were split into 4 groups, where NA was placed into Group A and APAC was placed into Group D. Unlike other leagues, Clash Cup had a point-based ranking system. APAC team finished at the top of their group scoring 83 points. 78 points by the NA team was enough to secure them the 3rd place spot in their group and both teams advanced to the playoffs. Both teams unfortunately lost and were eliminated from playoffs in the first round, going up against Team Liquid Academy APAC (for APAC team) and Undefined (for NA team).",
-        descriptionJP:"",
+        descriptionJP:"Rising Sun Esports NA、APACの両チームはClash Cupシーズン5に出場しました。34チームは4つのグループに分配されNAチームはグループA、APACチームはグループに配置されました。他のリーグと違い、Clash Cupではポイント制でチームの順位付けを定めてました。APACチームはそのグループで首位となる83点を記録し、別グループのNAは78点獲得しグループ内3位と両チームがプレイオフの出場を決めました。しかし、APACチームはTeam Liquid Academy APACに、NAチームはUndefinedに敗れて両チームプレイオフ一回で大会を終えました。",
         collapseNum:"thirteen"
     },
     {
