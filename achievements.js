@@ -2,6 +2,33 @@ var achievements = [
     {
         game:"CR",
         year:"2020",
+        event:"Vertex Cup Season 1",
+        rank:"Top 8",
+        descriptionEN:"16 Countries competed in the inaugural season of Vertex Cup. Japan was placed in a group with France, Brazil, and Italy. It was a tight competition between France, Japan, and Brazil, with all 3 teams finishing the group stage at 2-1, but Japan was able to get the advantage over Brazil to advance to the playoffs. However, Japan was defeated by Chile in the first round of playoffs, finishing Top 8.",
+        descriptionJP:"",
+        collapseNum:"eighteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"OfGamers September APAC Rankings",
+        rank:"1st",
+        descriptionEN:"OfGamers released the official APAC power rankings for September. Rising Sun Esports APAC was placed 1st out of all the teams in the APAC division. More information can be found <a href=https://www.ofgamers.org/cr-september-apac-rankings/>here</a>",
+        descriptionJP:"OfGamers が9月の公式APACパワーランキングを発表しました。Rising Sun Esports は APAC部門で全チームの中で1位になりました。詳細は <a href=https://www.ofgamers.org/cr-september-apac-rankings/>こちら</a>",
+        collapseNum:"seventeen"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"OfGamers September NA Rankings",
+        rank:"3rd",
+        descriptionEN:"OfGamers released the official NA power rankings for September. Rising Sun Esports NA was placed 3rd out of all the teams in the NA division. More information can be found <a href=https://www.ofgamers.org/september-na-rankings/>here</a>",
+        descriptionJP:"OfGamers が9月の公式NAパワーランキングを発表しました。Rising Sun Esports は NA部門で全チームの中で3位になりました。詳細は <a href=https://www.ofgamers.org/september-na-rankings/>こちら</a>",
+        collapseNum:"sixteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
         event:"GKR Leagues Season 4",
         rank:"Top 4",
         descriptionEN:"Rising Sun Esports APAC was one of the 24 teams that was selected to participate in the 4th Edidtion of GKR Leagues. We dominated the regular season, ending with a 20-3 record and securing 1st place. However, after facing Bloodbath in the second round of playoffs, we were eliminated from the competition.",
