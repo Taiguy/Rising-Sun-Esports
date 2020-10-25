@@ -2,10 +2,28 @@ var achievements = [
     {
         game:"CR",
         year:"2020",
+        event:"Team Wars 10/25",
+        rank:"1st",
+        descriptionEN:"90 Teams competed in the Weekly Team Wars tournament. Rising Sun NA B beat Rykers, Magical Goblin, Rising Sun NA A, ORG Elites, Team Vivo, Team KFC 2, and Team KFC 4 to become the champions. This is our 5th Time winning Team Wars.",
+        descriptionJP:"合計90チームが Team Wars トーナメントに参戦しました。 Rising Sun NA B は Rykers, Magical Goblins, Rising Sun NA A, ORG Elites, Team Vivo, Team KFC 2, Team KFC 4 に勝利し、優勝しました。これで5回目の優勝となりました。",
+        collapseNum:"twentyone"
+    },
+    {
+        game:"BS",
+        year:"2020",
+        event:"Vertex Cup Season 1",
+        rank:"1st",
+        descriptionEN:"16 Countries competed in the inaugural season of Vertex Cup. Japan was placed in a group with Korea, India, and Bangladesh. Japan advanced to the APAC Finals after finishing 2-1 in the Group Stages. In the Finals, Japan beat Korea 3-1 to become the Champions of Vertex Cup.",
+        descriptionJP:"日本を含む計16チームが Vertex Cup Season 1 に参戦しました。日本は韓国、インド、バングラデシュと同じにグループに分けられました。グループステージは2勝1敗で終わり、決勝進出しました。決勝では韓国と再び対面。3-1で勝利し、優勝しました。",
+        collapseNum:"nineteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
         event:"Vertex Cup Season 1",
         rank:"Top 8",
         descriptionEN:"16 Countries competed in the inaugural season of Vertex Cup. Japan was placed in a group with France, Brazil, and Italy. It was a tight competition between France, Japan, and Brazil, with all 3 teams finishing the group stage at 2-1, but Japan was able to get the advantage over Brazil to advance to the playoffs. However, Japan was defeated by Chile in the first round of playoffs, finishing Top 8.",
-        descriptionJP:"",
+        descriptionJP:"日本を含む計16チームが Vertex Cup Season 1 に参戦しました。日本はフランス、ブラジル、イタリアと同じグループに分けられました。グループステージは2勝1敗で終わり、無事プレイオフ進出しましたが、1回戦でチリに1-2で敗れ、トップ8で終わりました。",
         collapseNum:"eighteen"
     },
     {
@@ -25,6 +43,15 @@ var achievements = [
         descriptionEN:"OfGamers released the official NA power rankings for September. Rising Sun Esports NA was placed 3rd out of all the teams in the NA division. More information can be found <a href=https://www.ofgamers.org/september-na-rankings/>here</a>",
         descriptionJP:"OfGamers が9月の公式NAパワーランキングを発表しました。Rising Sun Esports は NA部門で全チームの中で3位になりました。詳細は <a href=https://www.ofgamers.org/september-na-rankings/>こちら</a>",
         collapseNum:"sixteen"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Team Wars 9/13",
+        rank:"1st",
+        descriptionEN:"55 teams competed in the weekly Team Wars tournament. Rising Sun NA dominated the tournament and became the champions for the 4th time.",
+        descriptionJP:"今週のTeam Warsは55チームが参戦しました。Rising Sun NA は圧倒的な勝利を収め、4度目の優勝となりました。",
+        collapseNum:"twenty"
     },
     {
         game:"CR",
