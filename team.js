@@ -277,7 +277,7 @@ for(i = 0; i < naMain.length; i++){
 var pastSinner = [
     {
         flag:"",
-        name:"Test팝콘TVBJ한상일",
+        name:"팝콘TVBJ한상일",
         twitter:"https://twitter.com/MENTAL_PSR",
         link:"https://royaleapi.com/player/800YLPGYU"
     },
@@ -343,7 +343,7 @@ var pastSinner = [
     },
     {
         flag:"",
-        name:"RaSun with raysSena",
+        name:"Ra sena",
         twitter:"https://twitter.com/sena040817",
         link:"https://royaleapi.com/player/90CRLJP"
     },
