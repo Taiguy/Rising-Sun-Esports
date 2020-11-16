@@ -33,33 +33,15 @@ var apac = [
     },
     {
         flag:"",
-        name:"こさかなりた",
-        twitter:"https://twitter.com/Rita__cr",
-        link:"https://royaleapi.com/player/22Y8J9PUR"
-    },
-    {
-        flag:"",
         name:"wataporon",
         twitter:"https://twitter.com/wataporooon",
         link:"https://royaleapi.com/player/8G9C9ULG"
     },
     {
         flag:"",
-        name:"Rian",
-        twitter:"https://twitter.com/Rian_HAYUIKOTO",
-        link:"https://royaleapi.com/player/JJ2290JR"
-    },
-    {
-        flag:"",
         name:"なーにをしているぅー？！",
         twitter:"https://twitter.com/genshinameko",
         link:"https://royaleapi.com/player/8P8892290"
-    },
-    {
-        flag:"",
-        name:"フワッティー",
-        twitter:"http://twitter.com/FUWA_CR",
-        link:"https://royaleapi.com/player/8Y9RCCPLR"
     },
     {
         flag:"",
@@ -84,12 +66,6 @@ var apac = [
         name:"NERV",
         twitter:"https://twitter.com/Nerv3M_CR",
         link:"https://royaleapi.com/player/R9082R8J"
-    },
-    {
-        flag:"",
-        name:"Lewis",
-        twitter:"https://twitter.com/semeko_coc",
-        link:"https://royaleapi.com/player/8Q020U0U"
     },
     {
         flag:"",
@@ -294,6 +270,133 @@ for(i = 0; i < naMain.length; i++){
             '<div class="name"><h6>'+ (i+1) +'. '+naMain[i].name +'</h6></div>'+
             twitterLine+
             '<div class="icon api"><a href="'+ naMain[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
+        '</div>')
+}
+
+// PastSinner --------------------------------------------
+var pastSinner = [
+    {
+        flag:"",
+        name:"Test팝콘TVBJ한상일",
+        twitter:"https://twitter.com/MENTAL_PSR",
+        link:"https://royaleapi.com/player/800YLPGYU"
+    },
+    {
+        flag:"",
+        name:"KAISTSparkles",
+        twitter:"https://twitter.com/KAISTCR",
+        link:"https://royaleapi.com/player/2298CLV2R"
+    },
+    {
+        flag:"",
+        name:"TOÝ",
+        twitter:"https://twitter.com/toy_68",
+        link:"https://royaleapi.com/player/P8RPLU08"
+    },
+    {
+        flag:"",
+        name:"PIVOT",
+        twitter:"https://twitter.com/YoungheonL",
+        link:"https://royaleapi.com/player/9QJVR20G"
+    },
+    {
+        flag:"",
+        name:"Munch",
+        twitter:"https://twitter.com/munchcr",
+        link:"https://royaleapi.com/player/82PY20YY"
+    },
+    {
+        flag:"",
+        name:"JESTER€Ro(Ya)Ri",
+        twitter:"https://twitter.com/JESTER_RoYaRi",
+        link:"https://royaleapi.com/player/8L8CC2VJ2"
+    },
+    {
+        flag:"",
+        name:"Greed",
+        twitter:"https://twitter.com/Greed_crl",
+        link:"https://royaleapi.com/player/2PQJYJV80"
+    },
+    {
+        flag:"",
+        name:"김재투",
+        twitter:"https://twitter.com/jaetwokim",
+        link:"https://royaleapi.com/player/RUQGRYUJ"
+    },
+    {
+        flag:"",
+        name:"최소무덤장인",
+        twitter:"https://twitter.com/xIzqZW8srr2T5sy",
+        link:"https://royaleapi.com/player/PRQLUGJU"
+    },
+    {
+        flag:"",
+        name:"Delta Kor",
+        twitter:"https://twitter.com/dQcOBbUsZAZlDIt",
+        link:"https://royaleapi.com/player/2GQJGLCQP"
+    },
+    {
+        flag:"",
+        name:"엘티노",
+        twitter:"https://twitter.com/junhyeok_2003",
+        link:"https://royaleapi.com/player/2GR0JUL0V"
+    },
+    {
+        flag:"",
+        name:"RaSun with raysSena",
+        twitter:"https://twitter.com/sena040817",
+        link:"https://royaleapi.com/player/90CRLJP"
+    },
+    {
+        flag:"",
+        name:"KÄİ",
+        twitter:"https://twitter.com/Kai15911613",
+        link:"https://royaleapi.com/player/Y9J809JR"
+    },
+    {
+        flag:"",
+        name:"LOVE",
+        twitter:"https://twitter.com/Love64169205",
+        link:"https://royaleapi.com/player/P8LGUJJ2"
+    },
+    {
+        flag:"",
+        name:"Wimpy Kid",
+        twitter:"https://twitter.com/ytwimpykidcr",
+        link:"https://royaleapi.com/player/YVGQVC9Y"
+    },
+    {
+        flag:"",
+        name:"RoThy",
+        twitter:"https://twitter.com/XCB6ADK93x4vUkF",
+        link:"https://royaleapi.com/player/JPRRUQVQ"
+    },
+    {
+        flag:"",
+        name:"ice wizard",
+        twitter:"https://twitter.com/nonno950917",
+        link:"https://royaleapi.com/player/20P0VLJL8"
+    },
+    {
+        flag:"",
+        name:"Ｎ Ａ Ｖ Ｅ Ｒ ",
+        twitter:"https://twitter.com/naver_cr",
+        link:"https://royaleapi.com/player/2GL2PCGGY"
+    },
+    {
+        flag:"",
+        name:"즹앙이",
+        twitter:"https://twitter.com/Lu4suCqy5PZx8ZU",
+        link:"https://royaleapi.com/player/PUG99PUJ"
+    }
+]
+
+for(i = 0; i < pastSinner.length; i++){
+    $('.pastSinner').append(
+        '<div class="player">' +
+            '<div class="name"><h6>'+ (i+1) +'. '+pastSinner[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ pastSinner[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            '<div class="icon api"><a href="'+ pastSinner[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
         '</div>')
 }
 
