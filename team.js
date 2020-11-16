@@ -283,7 +283,7 @@ var pastSinner = [
     },
     {
         flag:"",
-        name:"KAISTSparkles",
+        name:"KAIST",
         twitter:"https://twitter.com/KAISTCR",
         link:"https://royaleapi.com/player/2298CLV2R"
     },
