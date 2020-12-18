@@ -9,45 +9,9 @@ var apac = [
     },
     {
         flag:"",
-        name:"グッドナイト下川",
-        twitter:"https://twitter.com/Goodnight4093",
-        link:"https://www.royaleapi.com/player/2GU8GL80C"
-    },
-    {
-        flag:"",
-        name:"ひろねる",
-        twitter:"http://twitter.com/CR_NAgahama",
-        link:"https://www.royaleapi.com/player/2GQCLYPUV"
-    },
-    {
-        flag:"",
-        name:"Yoshii",
-        twitter:"https://twitter.com/yoshii_CR",
-        link:"https://www.royaleapi.com/player/QGURU8QC"
-    },
-    {
-        flag:"",
-        name:"ゆぽん",
-        twitter:"https://twitter.com/yupon_cr",
-        link:"https://royaleapi.com/player/8CVJPRY2C"
-    },
-    {
-        flag:"",
-        name:"wataporon",
-        twitter:"https://twitter.com/wataporooon",
-        link:"https://royaleapi.com/player/8G9C9ULG"
-    },
-    {
-        flag:"",
-        name:"なーにをしているぅー？！",
-        twitter:"https://twitter.com/genshinameko",
-        link:"https://royaleapi.com/player/8P8892290"
-    },
-    {
-        flag:"",
-        name:"メントス",
-        twitter:"https://twitter.com/mentos193",
-        link:"https://royaleapi.com/player/JY228GY9"
+        name:"kikutti",
+        twitter:"https://twitter.com/kikutti_cr",
+        link:"https://royaleapi.com/player/2V029LGP"
     },
     {
         flag:"",
@@ -57,39 +21,51 @@ var apac = [
     },
     {
         flag:"",
-        name:"CanCam",
-        twitter:"https://twitter.com/Can_7se_Cam",
-        link:"https://royaleapi.com/player/2GGGGU2P2"
-    },
-    {
-        flag:"",
-        name:"NERV",
-        twitter:"https://twitter.com/Nerv3M_CR",
-        link:"https://royaleapi.com/player/R9082R8J"
-    },
-    {
-        flag:"",
-        name:"Runadora",
-        twitter:"https://twitter.com/kuboshi__cr",
-        link:"https://royaleapi.com/player/C2Q2VGR"
-    },
-    {
-        flag:"",
-        name:"kikutti",
-        twitter:"https://twitter.com/kikutti_cr",
-        link:"https://royaleapi.com/player/2V029LGP"
-    },
-    {
-        flag:"",
         name:"MAGNUM",
         twitter:"https://twitter.com/magtyan_",
         link:"https://royaleapi.com/player/2QGYJ90G"
     },
     {
         flag:"",
-        name:"Starry",
-        twitter:"https://twitter.com/StarryWish_CR",
-        link:"https://royaleapi.com/player/8PJGCJUJU"
+        name:"ゆぽん",
+        twitter:"https://twitter.com/yupon_cr",
+        link:"https://royaleapi.com/player/8CVJPRY2C"
+    },
+    {
+        flag:"",
+        name:"CanCam",
+        twitter:"https://twitter.com/Can_7se_Cam",
+        link:"https://royaleapi.com/player/2GGGGU2P2"
+    },
+    {
+        flag:"",
+        name:"なーにをしているぅー？！",
+        twitter:"https://twitter.com/genshinameko",
+        link:"https://royaleapi.com/player/8P8892290"
+    },
+    {
+        flag:"",
+        name:"ショウダイ",
+        twitter:"https://twitter.com/SHODAI_CR",
+        link:"https://royaleapi.com/player/2C0PJR29Y"
+    },
+    {
+        flag:"",
+        name:"グッドナイト下川",
+        twitter:"https://twitter.com/Goodnight4093",
+        link:"https://www.royaleapi.com/player/2GU8GL80C"
+    },
+    {
+        flag:"",
+        name:"wataporon",
+        twitter:"https://twitter.com/wataporooon",
+        link:"https://royaleapi.com/player/8G9C9ULG"
+    },
+    {
+        flag:"",
+        name:"ひまわり",
+        twitter:"https://twitter.com/HimawariCR",
+        link:"https://royaleapi.com/player/2PQ20R02Y"
     },
     {
         flag:"",
@@ -111,16 +87,34 @@ var apac = [
     },
     {
         flag:"",
-        name:"Naru",
-        twitter:"https://twitter.com/Naru_valo",
-        link:"https://royaleapi.com/player/89VC8GQR2"
+        name:"Starry",
+        twitter:"https://twitter.com/StarryWish_CR",
+        link:"https://royaleapi.com/player/8PJGCJUJU"
     },
     {
         flag:"",
-        name:"ひまわり",
-        twitter:"https://twitter.com/HimawariCR",
-        link:"https://royaleapi.com/player/2PQ20R02Y"
+        name:"NERV",
+        twitter:"https://twitter.com/Nerv3M_CR",
+        link:"https://royaleapi.com/player/R9082R8J"
     },
+    {
+        flag:"",
+        name:"Yoshii",
+        twitter:"https://twitter.com/yoshii_CR",
+        link:"https://www.royaleapi.com/player/QGURU8QC"
+    },
+    {
+        flag:"",
+        name:"HERO",
+        twitter:"https://twitter.com/HERO98714996",
+        link:"https://www.royaleapi.com/player/22L8UUV0Q"
+    },
+    // {
+    //     flag:"",
+    //     name:"Runadora",
+    //     twitter:"https://twitter.com/kuboshi__cr",
+    //     link:"https://royaleapi.com/player/C2Q2VGR"
+    // },
 ]
 
 

@@ -88,9 +88,9 @@ $('nav').html(
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.rsl+'">RSL</a>'+
             '</li>'+
-            '<li class="nav-item active">'+
-                '<a class="nav-link" href="'+nav.link.shop+'">SHOP</a>'+
-            '</li>'+
+            // '<li class="nav-item active">'+
+            //     '<a class="nav-link" href="'+nav.link.shop+'">SHOP</a>'+
+            // '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.apply+'">'+nav.name.apply+'</a>'+
             '</li>'+
