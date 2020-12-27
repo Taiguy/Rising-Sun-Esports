@@ -2,6 +2,42 @@ var achievements = [
     {
         game:"CR",
         year:"2020",
+        event:"Qlash 3v3 Holiday Edition",
+        rank:"2nd",
+        descriptionEN:"128 teams competed in a single-elimination 3v3 KOTH tournament. Rising Sun Esports NA was able to advance to the finals, but lost in full sets.",
+        descriptionJP:"計128チームが 3v3 KOTH のシングルエリミネーショントーナメントに参加しました。Rising Sun Esports NA は決勝まで勝ち上がり、決勝戦で惜しくも敗れてしまいました。",
+        collapseNum:"twentyfive"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"LA Cup Season 2",
+        rank:"6th",
+        descriptionEN:"Rising Sun Esports PastSinner finished the APAC Group Stage 1st, finishing with a 6-1 record. In the Playoffs, PastSinner lost to Team Samurai and ERN NA, ending their season at 6th place.",
+        descriptionJP:"Rising Sun Esports PastSinner は APAC グループステージで6勝1敗の成績を残し、1位でプレ言オフ進出しました。しかし、プレイオフで Team Samurai と ERN NA に敗れ、結果は6位になりました。",
+        collapseNum:"twentyfour"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"OfGamers November APAC Rankings",
+        rank:"1st",
+        descriptionEN:"OfGamers released the official APAC power rankings for November. After acquiring PastSinner, Rising Sun Esports PastSinner was named the best APAC team in November. More information can be found <a href=https://www.ofgamers.org/clash-royale-november-apac-team-rankings/>here</a>",
+        descriptionJP:"OfGamers が11月の公式APACパワーランキングを発表しました。Rising Sun Esports PastSinnerが11月のAPACチーム1位に選ばれました。詳細は <a href=https://www.ofgamers.org/clash-royale-november-apac-team-rankings/>こちら</a>",
+        collapseNum:"twentythree"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"OfGamers October APAC Rankings",
+        rank:"1st",
+        descriptionEN:"OfGamers released the official APAC power rankings for October. Rising Sun Esports APAC was placed 2nd out of all the teams in the APAC division. More information can be found <a href=https://www.ofgamers.org/cr-october-apac-rankings/>here</a>",
+        descriptionJP:"OfGamers が10月の公式APACパワーランキングを発表しました。Rising Sun Esports は APAC部門で全チームの中で2位になりました。詳細は <a href=https://www.ofgamers.org/cr-october-apac-rankings/>こちら</a>",
+        collapseNum:"twentytwo"
+    },
+    {
+        game:"CR",
+        year:"2020",
         event:"Team Wars 10/25",
         rank:"1st",
         descriptionEN:"90 Teams competed in the Weekly Team Wars tournament. Rising Sun NA B beat Rykers, Magical Goblin, Rising Sun NA A, ORG Elites, Team Vivo, Team KFC 2, and Team KFC 4 to become the champions. This is our 5th Time winning Team Wars.",
