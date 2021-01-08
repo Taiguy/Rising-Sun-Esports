@@ -27,12 +27,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"MAGNUM",
-        twitter:"https://twitter.com/magtyan_",
-        link:"https://royaleapi.com/player/2QGYJ90G"
-    },
-    {
-        flag:"",
         name:"ゆぽん",
         twitter:"https://twitter.com/yupon_cr",
         link:"https://royaleapi.com/player/8CVJPRY2C"
@@ -90,12 +84,6 @@ var apac = [
         name:"Starry",
         twitter:"https://twitter.com/StarryWish_CR",
         link:"https://royaleapi.com/player/8PJGCJUJU"
-    },
-    {
-        flag:"",
-        name:"NERV",
-        twitter:"https://twitter.com/Nerv3M_CR",
-        link:"https://royaleapi.com/player/R9082R8J"
     },
     {
         flag:"",
