@@ -1,202 +1,28 @@
 var matches = [
     {
-        region:"APAC",
-        date:"9/6/2020",
-        time:"23:30 JST",
-        league:"Gem League",
-        score:"0 - 3",
-        oLogo:"https://lh3.googleusercontent.com/d/1Fh86taikvErn_LDEdfHhAWYkwc2MsC0j",
-        oName:"Team Legion"
-    },
-    {
-        region:"APAC",
-        date:"9/7/2020",
-        time:"19:00 JST",
-        league:"GKR Leagues",
-        score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1bpev1IR3BJtIZkaACiEVw--mPocirNa1",
-        oName:"Bloody Bride"
-    },
-    {
-        region:"APAC",
-        date:"9/9/2020",
-        time:"21:00 JST",
-        league:"GKR Leagues",
-        score:"0 - 3",
-        oLogo:"https://lh3.googleusercontent.com/d/1GI3wXiPjKl472fCBudnQQPom92q2sHxR",
-        oName:"Blood Bath"
-    },
-    {
-        region:"APAC",
-        date:"9/13/2020",
-        time:"9:00 JST",
-        league:"Clash Royale Cup",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1fyw1lUMjyZIcpNEgr-VifBcwlhjDZkYX",
-        oName:"Undefined"
-    },
-    {
-        region:"APAC Beta",
-        date:"9/18/2020",
-        time:"23:00 JST",
-        league:"Liquid Clash Cup",
+        region:"NA Academy",
+        date:"1/5/2021",
+        league:"Rockets League",
         score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1k80CYcsC8dijDmmMosLmfsrdSKYfk8Qg",
-        oName:"Bait Clashers"
-    },
-    {
-        region:"NA",
-        date:"9/19/2020",
-        time:"11:00 JST",
-        league:"Liquid Clash Cup",
-        score:"0 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/10cVK3UireOiWOb0uA0rPh6Qw-0eZRnhB",
-        oName:"Team Samurai"
-    },
-    {
-        region:"APAC Alpha",
-        date:"9/19/2020",
-        time:"20:30 JST",
-        league:"Liquid Clash League",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1mdFXGJOecNp1Ff0SyCqkBUYtiZQvDWiS",
-        oName:"Volcano Academy"
-    },
-    {
-        region:"APAC",
-        date:"9/20/2020",
-        time:"21:00 JST",
-        league:"World Royale League",
-        score:"4 - 2",
-        oLogo:"https://cdn.royaleapi.com/static/img/team/logo/islamabad-allstar.png?t=464034903c4ad4176910eccf1ed48efee4e9ad1d",
-        oName:"Pakistan"
-    },
-    {
-        region:"APAC Alpha",
-        date:"9/21/2020",
-        time:"21:00 JST",
-        league:"Liquid Clash League",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1CKXchiEUUe_8_HuRbZ--rM92v3e_hcl5",
-        oName:"Manado Reborn"
-    },
-    {
-        region:"APAC Beta",
-        date:"9/22/2020",
-        time:"21:00 JST",
-        league:"Liquid Clash League",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1iiInx9oE3QvVkJxsmhW8r-J1kLYFNjN0",
-        oName:"Ordinary Royale"
+        oLogo:"",
+        oName:"Dragon Esports Academy"
     },
     {
         region:"NA Academy",
-        date:"9/21/2020",
-        time:"9:00 JST",
-        league:"Liquid Clash League",
+        date:"1/6/2021",
+        league:"Quantum League",
         score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/18ukBM68lpieZeYTKEJX-m_R9CiZwRWHa",
-        oName:"Team Liquid Academy NA"
+        oLogo:"https://drive.google.com/uc?export=view&id=1TFjge2CeCGE1fBCxVyTGYR5gm9F3JJg-",
+        oName:"Calamity Academy"
     },
     {
         region:"APAC",
-        date:"9/21/2020",
-        time:"22:30 JST",
-        league:"Clash Royale Cup",
-        score:"3 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1f5aJA4q7Zhq7czVUhLwuRyXl0ypiOwBK",
-        oName:"TG"
-    },
-    {
-        region:"APAC Alpha",
-        date:"9/22/2020",
-        time:"22:00 JST",
-        league:"Liquid Clash League",
+        date:"1/7/2021",
+        league:"Rocket's League",
         score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1KxDWq6JNvUq9ajU7gYI9SUEv0U2vWl0S",
-        oName:"Imuers"
-    },
-    {
-        region:"APAC Beta",
-        date:"9/23/2020",
-        time:"22:00 JST",
-        league:"Liquid Clash League",
-        score:"1 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/18ukBM68lpieZeYTKEJX-m_R9CiZwRWHa",
-        oName:"Team Liquid Academy APAC Yang"
-    },
-    {
-        region:"NA Pro",
-        date:"9/24/2020",
-        time:"7:30 JST",
-        league:"Liquid Clash League",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1Y-IX3k6KyYj_MkjbqnnaPXCE8Hqupifd",
-        oName:"Team Exilium"
-    },
-    {
-        region:"NA",
-        date:"9/25/2020",
-        time:"9:00 JST",
-        league:"Liquid Clash League",
-        score:"2 - 1",
-        oLogo:"https://lh3.googleusercontent.com/d/1pb2hUdcAMLt1B2hzmDXq_et5s-FKC_iW",
-        oName:"Delta Stars"
-    },
-    {
-        region:"APAC Alpha",
-        date:"9/25/2020",
-        time:"23:00 JST",
-        league:"Liquid Clash League",
-        score:"0 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/1k80CYcsC8dijDmmMosLmfsrdSKYfk8Qg",
-        oName:"Bait Clashers"
-    },
-    {
-        region:"APAC",
-        date:"9/26/2020",
-        time:"12:00 JST",
-        league:"Vertex Cup",
-        score:"2 - 0",
-        oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/BR-flag.jpg",
-        oName:"Brazil"
-    },
-    {
-        region:"APAC",
-        date:"9/26/2020",
-        time:"20:00 JST",
-        league:"World Royale League",
-        score:"0 - 4",
-        oLogo:"https://www.cia.gov/library/publications/the-world-factbook/attachments/flags/UP-flag.jpg",
-        oName:"Ukraine"
-    },
-    {
-        region:"APAC Beta",
-        date:"9/26/2020",
-        time:"22:00 JST",
-        league:"Liquid Clash League",
-        score:"0 - 2",
-        oLogo:"https://lh3.googleusercontent.com/d/1bVkusUecsDbRmAxqaEM6RasBo406vGtm",
-        oName:"KIX JP"
-    },
-    {
-        region:"APAC Beta",
-        date:"9/27/2020",
-        time:"23:00 JST",
-        league:"Liquid Clash League",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1KxDWq6JNvUq9ajU7gYI9SUEv0U2vWl0S",
-        oName:"Imeurs"
-    },
-    {
-        region:"APAC Alpha",
-        date:"9/28/2020",
-        time:"22:00 JST",
-        league:"Liquid Clash League",
-        score:"2 - 0",
-        oLogo:"https://lh3.googleusercontent.com/d/1iiInx9oE3QvVkJxsmhW8r-J1kLYFNjN0",
-        oName:"Ordinary Royale"
-    },
+        oLogo:"",
+        oName:"TaX Esports"
+    }
 ]
 
 
@@ -218,7 +44,7 @@ for(i = 0; i < matches.length; i++){
         '<div class="row">' +
             '<div class="matchinfo col-12 col-md-4">'+
                 '<div><h6 class="league">'+matches[i].league+'</h6></div>'+
-                '<div><h6 class="time">'+matches[i].date+' '+matches[i].time+'</h6></div>'+
+                '<div><h6 class="time">'+matches[i].date+'</h6></div>'+
             '</div>'+
             '<div class="rs col-5 col-md-3"><img class="teamLogo" src="rs-logo1.png" alt="Rising Sun Esports"><br><h6>Rising Sun Esports '+matches[i].region+'</h6></div>'+
             '<div class="score col-2"><div class="scorespace"><h6>'+matches[i].score+'</h6></div></div>'+

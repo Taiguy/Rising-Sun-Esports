@@ -1,11 +1,38 @@
 var achievements = [
     {
         game:"CR",
+        year:"2021",
+        event:"CRFR League",
+        rank:"Top 16",
+        descriptionEN:"After collecting the most likes on Twitter, Rising Sun Esports received an invitation to the league. After advacing to the playoffs, Rising Sun Esports lost to Chômage Esport, finishing in Top 16.",
+        descriptionJP:"Twitter で最も「いいね」を集めた Rising Sun Esports は特別に招待枠としてリーグに参加しました。グループステージは難なく突破しましたが、プレイオフの初戦で　Chômage Esport に敗れ、トップ16 フィニッシュとなりました。",
+        collapseNum:"twentyeight"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Shadow Clash League Season 1 (Main)",
+        rank:"2nd",
+        descriptionEN:"A total of 40 teams competed in the inaugural season of Shadow Clash League. Both NA Main and NA Academy were able to get past the group stage without a problem. With 16 teams in the playoffs, NA Main and NA Academy faced off in the semi-finals, with NA Main advancing to the finals. NA Main lost to Team Liquid Academy EU in the finals, and NA Academy lost to Intellectuals NA in the 3rd place match.",
+        descriptionJP:"40チームが Shadow Clash League のシーズン１に参加しました。NA Main と NA Academy共にグループステージを突破しました。プレイオフは16チームによるシングルエリミネーショントーナメントで、NA Main と NA Academy は準決勝で対面しました。NA Main が準決勝で勝利し、決勝進出しました。NA Main は決勝戦で Team Liquid Academy EU に敗れ、NA Academy は3位決定戦で Intellectuals NA に敗れました。",
+        collapseNum:"twentyseven"
+    },
+    {
+        game:"CR",
+        year:"2020",
+        event:"Shadow Clash League Season 1 (Academy)",
+        rank:"Top 4",
+        descriptionEN:"A total of 40 teams competed in the inaugural season of Shadow Clash League. Both NA Main and NA Academy were able to get past the group stage without a problem. With 16 teams in the playoffs, NA Main and NA Academy faced off in the semi-finals, with NA Main advancing to the finals. NA Main lost to Team Liquid Academy EU in the finals, and NA Academy lost to Intellectuals NA in the 3rd place match.",
+        descriptionJP:"40チームが Shadow Clash League のシーズン１に参加しました。NA Main と NA Academy共にグループステージを突破しました。プレイオフは16チームによるシングルエリミネーショントーナメントで、NA Main と NA Academy は準決勝で対面しました。NA Main が準決勝で勝利し、決勝進出しました。NA Main は決勝戦で Team Liquid Academy EU に敗れ、NA Academy は3位決定戦で Intellectuals NA に敗れました。",
+        collapseNum:"twentysix"
+    },
+    {
+        game:"CR",
         year:"2020",
         event:"Qlash 3v3 Holiday Edition",
-        rank:"2nd",
-        descriptionEN:"128 teams competed in a single-elimination 3v3 KOTH tournament. Rising Sun Esports NA was able to advance to the finals, but lost in full sets.",
-        descriptionJP:"計128チームが 3v3 KOTH のシングルエリミネーショントーナメントに参加しました。Rising Sun Esports NA は決勝まで勝ち上がり、決勝戦で惜しくも敗れてしまいました。",
+        rank:"1st",
+        descriptionEN:"128 teams competed in a single-elimination 3v3 KOTH tournament. Rising Sun Esports NA was able to advance to the finals. After an investigation, it was found that the opponent cheated, giving the title to Rising Sun Esports NA.",
+        descriptionJP:"計128チームが 3v3 KOTH のシングルエリミネーショントーナメントに参加しました。Rising Sun Esports NA は決勝まで勝ち上がり、決勝相手の不正が発覚した為、Rising Sun Esports NA が優勝となりました。",
         collapseNum:"twentyfive"
     },
     {

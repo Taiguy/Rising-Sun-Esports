@@ -3,6 +3,18 @@
 var apac = [
     {
         flag:"",
+        name:"PANDORA",
+        twitter:"https://twitter.com/PandoraRa11",
+        link:"https://www.royaleapi.com/player/88RUCCQLC"
+    },
+    {
+        flag:"",
+        name:"ぐりこ",
+        twitter:"https://twitter.com/miku_cr1",
+        link:"https://www.royaleapi.com/player/2LJ0ULYCC "
+    },
+    {
+        flag:"",
         name:"Kou.h",
         twitter:"https://twitter.com/kOuh34506753",
         link:"https://www.royaleapi.com/player/2PLJGLLO"
@@ -12,12 +24,6 @@ var apac = [
         name:"kikutti",
         twitter:"https://twitter.com/kikutti_cr",
         link:"https://royaleapi.com/player/2V029LGP"
-    },
-    {
-        flag:"",
-        name:"dobby",
-        twitter:"https://twitter.com/bobby90415867",
-        link:"https://royaleapi.com/player/2QCQ29VR"
     },
     {
         flag:"",
@@ -48,12 +54,6 @@ var apac = [
         name:"ショウダイ",
         twitter:"https://twitter.com/SHODAI_CR",
         link:"https://royaleapi.com/player/2C0PJR29Y"
-    },
-    {
-        flag:"",
-        name:"グッドナイト下川",
-        twitter:"https://twitter.com/Goodnight4093",
-        link:"https://www.royaleapi.com/player/2GU8GL80C"
     },
     {
         flag:"",
@@ -99,15 +99,33 @@ var apac = [
     },
     {
         flag:"",
-        name:"Yoshii",
-        twitter:"https://twitter.com/yoshii_CR",
-        link:"https://www.royaleapi.com/player/QGURU8QC"
-    },
-    {
-        flag:"",
         name:"HERO",
         twitter:"https://twitter.com/HERO98714996",
         link:"https://www.royaleapi.com/player/22L8UUV0Q"
+    },
+    {
+        flag:"",
+        name:"zumishie™️",
+        twitter:"https://twitter.com/zumishiecr",
+        link:"https://www.royaleapi.com/player/2U08UYCRP"
+    },
+    {
+        flag:"",
+        name:"ひろねる",
+        twitter:"https://twitter.com/CR_NAgahama",
+        link:"https://www.royaleapi.com/player/2GQCLYPUV"
+    },
+    {
+        flag:"",
+        name:"Takashi⊿ ",
+        twitter:"https://twitter.com/takashi_cr",
+        link:"https://www.royaleapi.com/player/2JVG0C298 "
+    },
+    {
+        flag:"",
+        name:"ウィル",
+        twitter:"https://twitter.com/will___cr",
+        link:"https://www.royaleapi.com/player/2UV9G0L80"
     },
     // {
     //     flag:"",
@@ -138,39 +156,15 @@ var naMain = [
     },
     {
         flag:"",
-        name:"Hasiel-19",
-        twitter:"https://twitter.com/Hasiel19_CR",
-        link:"https://royaleapi.com/player/UGLR0P2"
-    },
-    {
-        flag:"",
         name:"Tauron_E5150",
         twitter:"https://twitter.com/Tauron_E5150",
-        link:"https://royaleapi.com/player/2VRYYQU"
-    },
-    {
-        flag:"",
-        name:"Gebby",
-        twitter:"https://twitter.com/just_gebby",
-        link:"https://royaleapi.com/player/2UGGULY9U"
-    },
-    {
-        flag:"",
-        name:"WiNnTeR 快速",
-        twitter:"https://twitter.com/WiNnTeR1723",
-        link:"https://royaleapi.com/player/2UGC20GPY"
+        link:"https://royaleapi.com/player/8PYRVGYCL"
     },
     {
         flag:"",
         name:"Yisus菩提",
         twitter:"https://twitter.com/Yisus02_CR",
         link:"https://royaleapi.com/player/P82C9LYU"
-    },
-    {
-        flag:"",
-        name:"Ermand",
-        twitter:"https://twitter.com/ErmandCr",
-        link:"https://royaleapi.com/player/GPRVRQJP"
     },
     {
         flag:"",
@@ -186,12 +180,6 @@ var naMain = [
     },
     {
         flag:"",
-        name:"SCP Francisco",
-        twitter:"",
-        link:"https://royaleapi.com/player/PCJULYVQ"
-    },
-    {
-        flag:"",
         name:"Kendaswagger ツ",
         twitter:"https://twitter.com/KenDaSwaggerCR",
         link:"https://royaleapi.com/player/JCG2GUYL"
@@ -204,52 +192,166 @@ var naMain = [
     },
     {
         flag:"",
-        name:"Cope_04",
-        twitter:"https://twitter.com/copexzy",
-        link:"https://royaleapi.com/player/LQLV0U90"
+        name:"Nicoco23¶",
+        twitter:"https://twitter.com/NicocoSalgado",
+        link:"https://royaleapi.com/player/G0CYJ00J"
     },
     {
         flag:"",
-        name:"E1FERSU€HT",
-        twitter:"",
+        name:"FelipeeePT",
+        twitter:"https://twitter.com/PtFelipeee",
+        link:"https://royaleapi.com/player/2C9GJ2802"
+    },
+    {
+        flag:"",
+        name:"bigbadjulesy",
+        twitter:"https://twitter.com/Julesy237",
+        link:"https://royaleapi.com/player/P82PPQPV"
+    },
+    {
+        flag:"",
+        name:"Joaozinhopan",
+        twitter:"https://twitter.com/PtFelipeee",
+        link:"https://royaleapi.com/player/GYR89C0JU"
+    },
+    {
+        flag:"",
+        name:"Pedro™ツ",
+        twitter:"https://twitter.com/PedrotmClash",
+        link:"https://royaleapi.com/player/9JUJRY"
+    },
+    {
+        flag:"",
+        name:"Cheesecake✨",
+        twitter:"https://twitter.com/CheesecakeCR_",
+        link:"https://royaleapi.com/player/2PLPPR2RL"
+    },
+    {
+        flag:"",
+        name:"FENOFINALFORM⚡☠️",
+        twitter:"https://twitter.com/fenofinalform03",
+        link:"https://royaleapi.com/player/2GLYLV998"
+    },
+    {
+        name:"OHH YEAHHH!",
+        twitter:"https://twitter.com/ohhyeahh_cr",
+        link:"https://royaleapi.com/player/28LJ029VU"
+    },
+    {
+        name:"KIX™ JayTV",
+        twitter:"https://twitter.com/JaytvCR",
+        link:"https://royaleapi.com/player/8YVLQLG0"
+    },
+    {
+        name:"King Andy",
+        twitter:"https://twitter.com/KingAndy_CR",
+        link:"https://royaleapi.com/player/2LGRQGR9Q"
+    },
+    {
+        name:"Contray™",
+        twitter:"https://twitter.com/ContrayTm",
+        link:"https://royaleapi.com/player/PRCCYC02R"
+    },
+    {
+        name:"Eazy✨",
+        twitter:"https://mobile.twitter.com/EazyCR",
+        link:"https://royaleapi.com/player/P2UR29UG"
+    },
+    {
+        name:"-WiiX-",
+        twitter:"https://twitter.com/wiixgam",
+        link:"https://royaleapi.com/player/YJ2GGY8J"
+    },
+    {
+        name:"danielpinedaRD",
+        twitter:"https://twitter.com/Danielpineda4_",
+        link:"https://royaleapi.com/player/J9JY9P02"
+    },
+    {
+        name:"Ascarchii",
+        twitter:"https://twitter.com/AscarchiiUwU",
+        link:"https://royaleapi.com/player/UGPPUPV8"
+    },
+    {
+        name:"Raphou",
+        twitter:"https://twitter.com/raphouuuu__",
+        link:"https://royaleapi.com/player/LCVPGJ08P"
+    },
+    {
+        name:"Faze Up",
+        twitter:"https://twitter.com/fazeupcr1",
+        link:"https://royaleapi.com/player/8CPQPRVY"
+    },
+    {
+        name:"Metro",
+        twitter:"https://twitter.com/MetroCR2",
+        link:"https://royaleapi.com/player/CGPG90R0"
+    },
+    {
+        name:"@ꜱʜᴇᴇᴘɪᴛ_ᴄʀ",
+        twitter:"https://twitter.com/SheepIt_cr",
+        link:"https://royaleapi.com/player/LLCR2GQPY"
+    },
+    {
+        name:"Ed",
+        twitter:"https://twitter.com/Ed_0456",
+        link:"https://royaleapi.com/player/JPCJJ0UJ"
+    },
+    {
+        name:"MRV⚡garsill",
+        twitter:"https://twitter.com/OGarsill",
+        link:"https://royaleapi.com/player/9L02RVJ2"
+    },
+    {
+        name:"ENM⚡David",
+        twitter:"https://twitter.com/David_Enemity",
         link:"https://royaleapi.com/player/22929Y2QC"
     },
     {
-        flag:"",
-        name:"꧁☆Cilli☆꧂",
-        twitter:"https://twitter.com/Cilli_cr",
-        link:"https://royaleapi.com/player/VQPR0PV0"
+        name:"Brighton",
+        twitter:"https://twitter.com/BrightonCR18",
+        link:"https://royaleapi.com/player/88RL908G"
     },
     {
-        flag:"",
-        name:"Crafter",
-        twitter:"https://twitter.com/CrafterKane",
-        link:"https://royaleapi.com/player/PJYYC28GR"
+        name:"Mr.Sir Person",
+        twitter:"https://twitter.com/MrSirPerson21",
+        link:"https://royaleapi.com/player/YGY2R88G"
     },
     {
-        flag:"",
-        name:"Rainbow",
-        twitter:"https://twitter.com/_RainBowCR",
-        link:"https://royaleapi.com/player/VR90898"
+        name:"Mihmster",
+        twitter:"",
+        link:"https://royaleapi.com/player/298JLLCYV"
     },
     {
-        flag:"",
-        name:"ChrisKing",
-        twitter:"https://twitter.com/itsmeChris50",
-        link:"https://royaleapi.com/player/9RJ2Q99YR"
+        name:"Mini Caio",
+        twitter:"https://twitter.com/CaioMarina",
+        link:"https://royaleapi.com/player/PRPQPR88R"
     },
     {
-        flag:"",
-        name:"DarkLord",
-        twitter:"https://twitter.com/MuskyyLover",
-        link:"https://royaleapi.com/player/290CVUC9"
+        name:"Gianni",
+        twitter:"https://twitter.com/GianniiCR",
+        link:"https://royaleapi.com/player/GU22CYL9P"
     },
     {
-        flag:"",
-        name:"Seveta",
-        twitter:"https://twitter.com/SevetarC",
-        link:"https://royaleapi.com/player/9YJ9QQ02"
+        name:"Veli❤️",
+        twitter:"https://twitter.com/Veli_cr",
+        link:"https://royaleapi.com/player/9QVCQL2P"
     },
+    {
+        name:"SHO 翔",
+        twitter:"https://twitter.com/Sho_RS_CR",
+        link:"https://royaleapi.com/player/VQRQCCYG"
+    },
+    {
+        name:"KEI",
+        twitter:"https://twitter.com/RS_Kei_CR",
+        link:"https://royaleapi.com/player/2CQQ9UR2C"
+    },
+    // {
+    //     name:"",
+    //     twitter:"",
+    //     link:"https://royaleapi.com/player/"
+    // },
 ]
 
 var twitterLine = "";
@@ -349,12 +451,6 @@ var pastSinner = [
     },
     {
         flag:"",
-        name:"LOVE",
-        twitter:"https://twitter.com/Love64169205",
-        link:"https://royaleapi.com/player/P8LGUJJ2"
-    },
-    {
-        flag:"",
         name:"Wimpy Kid",
         twitter:"https://twitter.com/ytwimpykidcr",
         link:"https://royaleapi.com/player/YVGQVC9Y"
@@ -382,6 +478,12 @@ var pastSinner = [
         name:"즹앙이",
         twitter:"https://twitter.com/Lu4suCqy5PZx8ZU",
         link:"https://royaleapi.com/player/PUG99PUJ"
+    },
+    {
+        flag:"",
+        name:"아쿠아",
+        twitter:"https://twitter.com/omichrom",
+        link:"https://royaleapi.com/player/9VGUL0PR"
     }
 ]
 
