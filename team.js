@@ -1,4 +1,4 @@
-// CLASH ROYALE ---------------------------------
+// APAC ---------------------------------
 
 var apac = [
     {
@@ -24,12 +24,6 @@ var apac = [
         name:"kikutti",
         twitter:"https://twitter.com/kikutti_cr",
         link:"https://royaleapi.com/player/2V029LGP"
-    },
-    {
-        flag:"",
-        name:"MAGNUM",
-        twitter:"https://twitter.com/magtyan_",
-        link:"https://royaleapi.com/player/2QGYJ90G"
     },
     {
         flag:"",
@@ -93,12 +87,6 @@ var apac = [
     },
     {
         flag:"",
-        name:"NERV",
-        twitter:"https://twitter.com/Nerv3M_CR",
-        link:"https://royaleapi.com/player/R9082R8J"
-    },
-    {
-        flag:"",
         name:"HERO",
         twitter:"https://twitter.com/HERO98714996",
         link:"https://www.royaleapi.com/player/22L8UUV0Q"
@@ -127,15 +115,19 @@ var apac = [
         twitter:"https://twitter.com/will___cr",
         link:"https://www.royaleapi.com/player/2UV9G0L80"
     },
+    {
+        name:"YUYA",
+        twitter:"https://twitter.com/YUU_YUYA_CR",
+        link:"https://royaleapi.com/player/980RC809"
+    },
     // {
-    //     flag:"",
-    //     name:"Runadora",
-    //     twitter:"https://twitter.com/kuboshi__cr",
-    //     link:"https://royaleapi.com/player/C2Q2VGR"
+    //     name:"",
+    //     twitter:"",
+    //     link:"https://royaleapi.com/player/"
     // },
 ]
 
-
+apac = apac.sort(nameSort);
 for(i = 0; i < apac.length; i++){
     $('.apac').append(
         '<div class="player">' +
@@ -183,12 +175,6 @@ var naMain = [
         name:"Kendaswagger ツ",
         twitter:"https://twitter.com/KenDaSwaggerCR",
         link:"https://royaleapi.com/player/JCG2GUYL"
-    },
-    {
-        flag:"",
-        name:"Metro",
-        twitter:"https://twitter.com/MetroCR2",
-        link:"https://royaleapi.com/player/CGPG90R0"
     },
     {
         flag:"",
@@ -241,11 +227,6 @@ var naMain = [
         name:"KIX™ JayTV",
         twitter:"https://twitter.com/JaytvCR",
         link:"https://royaleapi.com/player/8YVLQLG0"
-    },
-    {
-        name:"King Andy",
-        twitter:"https://twitter.com/KingAndy_CR",
-        link:"https://royaleapi.com/player/2LGRQGR9Q"
     },
     {
         name:"Contray™",
@@ -355,7 +336,7 @@ var naMain = [
 ]
 
 var twitterLine = "";
-
+var naMain = naMain.sort(nameSort);
 for(i = 0; i < naMain.length; i++){
     twitterLine = "";
     if(naMain[i].twitter != ""){
@@ -469,7 +450,7 @@ var pastSinner = [
     },
     {
         flag:"",
-        name:"Ｎ Ａ Ｖ Ｅ Ｒ ",
+        name:"N A V E R",
         twitter:"https://twitter.com/naver_cr",
         link:"https://royaleapi.com/player/2GL2PCGGY"
     },
@@ -487,6 +468,7 @@ var pastSinner = [
     }
 ]
 
+pastSinner = pastSinner.sort(nameSort);
 for(i = 0; i < pastSinner.length; i++){
     $('.pastSinner').append(
         '<div class="player">' +
@@ -539,7 +521,7 @@ var kixRS = [
     },
 ]
 
-
+kixRS = kixRS.sort(nameSort);
 for(i = 0; i < kixRS.length; i++){
     twitterLine = "";
     if(kixRS[i].twitter != ""){
@@ -560,6 +542,14 @@ if(activeTab){
     $('#member-tabs a[href="'+activeTab + '"]').tab('show');
 }
 
+function nameSort(a,b){
+    a.name = a.name.toLowerCase();
+    b.name = b.name.toLowerCase();
+    if(a.name < b.name)
+        return -1
+    else
+        return 1
+}
 
 
 
