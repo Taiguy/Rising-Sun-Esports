@@ -179,7 +179,7 @@ var naMain = [
     {
         flag:"",
         name:"Nicoco23¶",
-        twitter:"https://twitter.com/NicocoSalgado",
+        twitter:"https://twitter.com/Nicoco23CR",
         link:"https://royaleapi.com/player/G0CYJ00J"
     },
     {
@@ -197,7 +197,7 @@ var naMain = [
     {
         flag:"",
         name:"Joaozinhopan",
-        twitter:"https://twitter.com/PtFelipeee",
+        twitter:"https://twitter.com/JoaozinhopanCR",
         link:"https://royaleapi.com/player/GYR89C0JU"
     },
     {
