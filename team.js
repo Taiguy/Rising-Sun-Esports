@@ -498,38 +498,38 @@ for(i = 0; i < pastSinner.length; i++){
 //         '</div>')
 // }
 
-// BRAWL STARS --------------------------------------------
+// Wild Rift  --------------------------------------------
 
-var kixRS = [
+var RSB = [
     {
-        flag:"jp",
-        name:"Lil.Dembsey",
-        twitter:"https://twitter.com/denden_BS",
-        
-    },
-    {
-        flag:"jp",
-        name:"あかつき",
-        twitter:"https://twitter.com/Akatsuki_bbrack",
-       
-    },
-    {
-        flag:"jp",
-        name:"Shanaku",
+        flag:"",
+        name:"Coming Soon...",
         twitter:"",
         
     },
+    // {
+    //     flag:"",
+    //     name:"",
+    //     twitter:"",
+       
+    // },
+    // {
+    //     flag:"",
+    //     name:"",
+    //     twitter:"",
+        
+    // },
 ]
 
-kixRS = kixRS.sort(nameSort);
-for(i = 0; i < kixRS.length; i++){
+RSB = RSB.sort(nameSort);
+for(i = 0; i < RSB.length; i++){
     twitterLine = "";
-    if(kixRS[i].twitter != ""){
-        twitterLine = "<div class=\"icon twitter\"><a href=\""+ kixRS[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
+    if(RSB[i].twitter != ""){
+        twitterLine = "<div class=\"icon twitter\"><a href=\""+ RSB[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
     }
-    $('.kixRS').append(
+    $('.RSB').append(
         '<div class="player">' +
-            '<div class="name"><h6>'+ (i+1) +'. '+kixRS[i].name +'</h6></div>'+
+            '<div class="name"><h6>'+ (i+1) +'. '+RSB[i].name +'</h6></div>'+
             twitterLine +
         '</div>')
 }
