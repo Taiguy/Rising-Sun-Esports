@@ -267,73 +267,7 @@ for(i = 0; i < pastSinner.length; i++){
         '</div>')
 }
 
-// Valorant  --------------------------------------------
 
-var Valorant = [
-    {
-        flag:"",
-        name:"Aadrastos",
-        twitter:"",
-        
-    },
-    {
-        flag:"",
-        name:"Chogpamp",
-        twitter:"",
-       
-    },
-    {
-        flag:"",
-        name:"Googol",
-        twitter:"",
-        
-    },
-    {
-        flag:"",
-        name:"Skyon",
-        twitter:"",
-       
-    },
-    {
-        flag:"",
-        name:"Oxioxioculus",
-        twitter:"https://twitter.com/OculusOxi",
-        
-    }
-]
-
-Valorant = Valorant.sort(nameSort);
-for(i = 0; i < Valorant.length; i++){
-    twitterLine = "";
-    if(Valorant[i].twitter != ""){
-        twitterLine = "<div class=\"icon twitter\"><a href=\""+ Valorant[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
-    }
-    $('.Valorant').append(
-        '<div class="player">' +
-            '<div class="name"><h6>'+ (i+1) +'. '+Valorant[i].name +'</h6></div>'+
-            twitterLine +
-        '</div>')
-}
-
-// // NA Academy --------------------------------------------
-
-// var naAcademy = [
-//     {
-//         flag:"",
-//         name:"Name",
-//         twitter:"https://twitter.com/###",
-//         link:"https://royaleapi.com/player/###"
-//     },
-// ]
-
-// for(i = 0; i < naAcademy.length; i++){
-//     $('.naAcademy').append(
-//         '<div class="player">' +
-//             '<div class="name"><h6>'+ (i+1) +'. '+naAcademy[i].name +'</h6></div>'+
-//             '<div class="icon twitter"><a href="'+ naAcademy[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
-//             '<div class="icon api"><a href="'+ naAcademy[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
-//         '</div>')
-// }
 
 // Wild Rift  --------------------------------------------
 
