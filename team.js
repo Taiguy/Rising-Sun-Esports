@@ -9,7 +9,7 @@ var apac = [
     },
     {
         flag:"",
-        name:"ぐりこ",
+        name:"Guriko",
         twitter:"https://twitter.com/miku_cr1",
         link:"https://www.royaleapi.com/player/2LJ0ULYCC "
     },
@@ -27,7 +27,7 @@ var apac = [
     },
     {
         flag:"",
-        name:"ゆぽん",
+        name:"Yupon",
         twitter:"https://twitter.com/yupon_cr",
         link:"https://royaleapi.com/player/8CVJPRY2C"
     },
@@ -116,9 +116,29 @@ var apac = [
         link:"https://www.royaleapi.com/player/2UV9G0L80"
     },
     {
-        name:"YUYA",
-        twitter:"https://twitter.com/YUU_YUYA_CR",
-        link:"https://royaleapi.com/player/980RC809"
+        name:"Runadora",
+        twitter:"https://twitter.com/asa_k__",
+        link:"https://royaleapi.com/player/C2Q2VGR"
+    },
+    {
+        name:"くり",
+        twitter:"https://twitter.com/Kuri_GG",
+        link:"https://royaleapi.com/player/2LUY2Q98"
+    },
+    {
+        name:"Trion",
+        twitter:"https://twitter.com/Trion__balloon",
+        link:"https://royaleapi.com/player/2RGCR09P2"
+    },
+    {
+        name:"Trion",
+        twitter:"https://twitter.com/Trion__balloon",
+        link:"https://royaleapi.com/player/2RGCR09P2"
+    },
+    {
+        name:"Taa",
+        twitter:"https://twitter.com/Taa_0922",
+        link:"https://royaleapi.com/player/LP8PLVJCU"
     },
     // {
     //     name:"",
@@ -140,46 +160,72 @@ for(i = 0; i < apac.length; i++){
 
 // Wild Rift  --------------------------------------------
 
-var RSB = [
+var CRKorea = [
     {
-        flag:"",
-        name:"Tori",
-        twitter:"https://twitter.com/Fw_tori3",
-        
+        name:"FFORTE",
+        twitter:"https://twitter.com/12_5kh",
+        link:"https://royaleapi.com/player/LJ09GUGG"
     },
     {
-        flag:"",
-        name:"Dragon",
+        name:"Dinosaur",
+        twitter:"https://twitter.com/Top_Tomemaster",
+        link:"https://royaleapi.com/player/YCJJ2CYGU"
+    },
+    {
+        name:"Seunghee",
+        twitter:"https://twitter.com/Complex1122",
+        link:"https://royaleapi.com/player/28VYGR9P0"
+    },
+    {
+        name:"Geralt",
+        twitter:"https://twitter.com/Mogun_Kwon",
+        link:"https://royaleapi.com/player/8G2CJYQV"
+    },
+    {
+        name:"Welcome",
+        twitter:"https://twitter.com/WELCOME_CR",
+        link:"https://royaleapi.com/player/2VQ9PRQ9Y"
+    },
+    {
+        name:"Winner",
+        twitter:"https://twitter.com/WINNER24112692",
+        link:"https://royaleapi.com/player/8UPY92GVY"
+    },
+    {
+        name:"연우",
         twitter:"",
-       
+        link:"https://royaleapi.com/player/28298UGQC"
     },
     {
-        flag:"",
-        name:"Magic",
-        twitter:"https://twitter.com/Magic_0119",
+        name:"Berlin",
+        twitter:"https://twitter.com/Delip02",
+        link:"https://royaleapi.com/player/UR2G2CPJ"
     },
     {
-        flag:"",
-        name:"Paseri",
-        twitter:"https://twitter.com/wildrift3150",
-    },
-    {
-        flag:"",
-        name:"SugarDog",
-        twitter:"https://twitter.com/satoh_inu",
+        name:"Kaist",
+        twitter:"https://twitter.com/KAIST_",
+        link:"https://royaleapi.com/player/2298CLV2R"
     },
 ]
 
-RSB = RSB.sort(nameSort);
-for(i = 0; i < RSB.length; i++){
-    twitterLine = "";
-    if(RSB[i].twitter != ""){
-        twitterLine = "<div class=\"icon twitter\"><a href=\""+ RSB[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
-    }
-    $('.RSB').append(
+CRKorea = CRKorea.sort(nameSort);
+// for(i = 0; i < CRKorea.length; i++){
+//     twitterLine = "";
+//     if(CRKorea[i].twitter != ""){
+//         twitterLine = "<div class=\"icon twitter\"><a href=\""+ CRKorea[i].twitter +"\"><img src=\"twitter.png\" class=\"stats-icon\"></img></a></div>";
+//     }
+//     $('.CRKorea').append(
+//         '<div class="player">' +
+//             '<div class="name"><h6>'+ (i+1) +'. '+CRKorea[i].name +'</h6></div>'+
+//             twitterLine +
+//         '</div>')
+// }
+for(i = 0; i < CRKorea.length; i++){
+    $('.CRKorea').append(
         '<div class="player">' +
-            '<div class="name"><h6>'+ (i+1) +'. '+RSB[i].name +'</h6></div>'+
-            twitterLine +
+            '<div class="name"><h6>'+ (i+1) +'. '+CRKorea[i].name +'</h6></div>'+
+            '<div class="icon twitter"><a href="'+ CRKorea[i].twitter +'"><img src="twitter.png" class="stats-icon"></img></a></div>'+
+            '<div class="icon api"><a href="'+ CRKorea[i].link +'"><img src="royaleapi-logo.png" class="stats-icon"></a></div>'+
         '</div>')
 }
 

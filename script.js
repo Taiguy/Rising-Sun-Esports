@@ -82,9 +82,9 @@ $('nav').html(
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.team+'">'+nav.name.team+'</a>'+
             '</li>'+
-            '<li class="nav-item active">'+
-                '<a class="nav-link" href="'+nav.link.match+'">'+nav.name.match+'</a>'+
-            '</li>'+
+            // '<li class="nav-item active">'+
+            //     '<a class="nav-link" href="'+nav.link.match+'">'+nav.name.match+'</a>'+
+            // '</li>'+
             '<li class="nav-item active">'+
                 '<a class="nav-link" href="'+nav.link.rsl+'">RSL</a>'+
             '</li>'+
