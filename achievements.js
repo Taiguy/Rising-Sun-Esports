@@ -2,6 +2,33 @@ var achievements = [
     {
         game:"CR",
         year:"2021",
+        event:"Clash Cup Season 6",
+        rank:"Top 8",
+        descriptionEN:"Rising Sun Esports brought in their staff to create a team which participated in the N8 League. Despite not being players, the staff competed very well, finishing in the Top 8.",
+        descriptionJP:"N8 League では運営チームを結成し、優勝へ挑みました。好成績を残し、Top 8 まで進出しました。",
+        collapseNum:"thirty"
+    },
+    {
+        game:"CR",
+        year:"2021",
+        event:"N8 League",
+        rank:"Top 8",
+        descriptionEN:"Rising Sun Esports brought in their staff to create a team which participated in the N8 League. Despite not being players, the staff competed very well, finishing in the Top 8.",
+        descriptionJP:"N8 League では運営チームを結成し、優勝へ挑みました。好成績を残し、Top 8 まで進出しました。",
+        collapseNum:"thirty"
+    },
+    {
+        game:"CR",
+        year:"2021",
+        event:"Team Wars 2/7",
+        rank:"1st",
+        descriptionEN:"Rising Sun Esports became the champions yet again for the 6th time in the weekly tournament.",
+        descriptionJP:"毎週行われているトーナメントで Rising Sun Esports が再び優勝しました。これで6度目の優勝になりました。",
+        collapseNum:"twentynine"
+    },
+    {
+        game:"CR",
+        year:"2021",
         event:"CRFR League",
         rank:"Top 16",
         descriptionEN:"After collecting the most likes on Twitter, Rising Sun Esports received an invitation to the league. After advacing to the playoffs, Rising Sun Esports lost to Chômage Esport, finishing in Top 16.",
